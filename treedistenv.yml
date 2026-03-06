@@ -1,0 +1,25 @@
+name: phylovae
+channels:
+  - defaults
+  - pytorch
+  - bioconda
+  - conda-forge
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - pytorch=2.1
+  - omegaconf=2.3
+  - tensorboard=2.15
+  - biopython==1.85
+  - bitarray=2.9
+  - ete3=3.1
+  - pip=23.3.1
+  - matplotlib
+  - psutil=5.9
+  - tqdm=4.65
+  - python=3.10
+  - jupyter
+  - dendropy
+  - seaborn
+  - scikit-learn
+prefix: /home/marzie.abdolhamdi/miniconda3/envs/phylovae
