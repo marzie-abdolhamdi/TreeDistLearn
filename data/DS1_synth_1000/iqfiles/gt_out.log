@@ -1,0 +1,76 @@
+IQ-TREE version 3.0.1 for Linux x86 64-bit built Jul  9 2025
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    jl-baubab.scilifelab.se (AVX2, FMA3, 502 GB RAM)
+Command: iqtree -s TreeDistLearn/data/DS1_synth_1000/seq_gen_1000DS1_reordered_tree.fasta -te TreeDistLearn/data/DS1/ds1_best_mrbayes_cleaned_tree.nwk -m JC -blfix -redo -pre TreeDistLearn/data/DS1_synth_1000/iqfiles/gt_out
+Seed:    27199 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Feb 27 10:32:55 2026
+Kernel:  AVX+FMA - 1 threads (256 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 256 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file TreeDistLearn/data/DS1_synth_1000/seq_gen_1000DS1_reordered_tree.fasta ... Fasta format detected
+Reading fasta file: done in 0.000378452 secs using 49.68% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.000902995 secs using 27.46% CPU
+Alignment has 27 sequences with 1000 columns, 303 distinct patterns
+176 parsimony-informative, 195 singleton sites, 629 constant sites
+                            Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 1.97068e-05 secs
+   1  Amphiuma_tridactylum          0.00%    passed     98.01%
+   2  Rattus_norvegicus             0.00%    passed     90.33%
+   3  Nesomantis_thomasseti         0.00%    passed     94.34%
+   4  Turdus_migratorius            0.00%    passed     99.15%
+   5  Latimeria_chalumnae           0.00%    passed     98.05%
+   6  Ambystoma_mexicanum           0.00%    passed     98.39%
+   7  Heterodon_platyrhinos         0.00%    passed     98.52%
+   8  Bufo_valliceps                0.00%    passed     98.74%
+   9  Gastrophryne_carolinensis     0.00%    passed     96.94%
+  10  Ichthyophis_bannanicus        0.00%    passed     91.81%
+  11  Eleutherodactylus_cuneatus    0.00%    passed     90.83%
+  12  Xenopus_laevis                0.00%    passed     99.80%
+  13  Hyla_cinerea                  0.00%    passed     86.55%
+  14  Scaphiopus_holbrooki          0.00%    passed     99.32%
+  15  Trachemys_scripta             0.00%    passed     97.42%
+  16  Oryctolagus_cuniculus         0.00%    passed     98.48%
+  17  Hypogeophis_rostratus         0.00%    passed     99.24%
+  18  Discoglossus_pictus           0.00%    passed     99.72%
+  19  Gallus_gallus                 0.00%    passed     98.02%
+  20  Typhlonectes_natans           0.00%    passed     98.28%
+  21  Homo_sapiens                  0.00%    passed     90.33%
+  22  Sceloporus_undulatus          0.00%    passed     97.19%
+  23  Mus_musculus                  0.00%    passed     98.29%
+  24  Siren_intermedia              0.00%    passed     99.36%
+  25  Grandisonia_alternans         0.00%    passed     98.19%
+  26  Alligator_mississippiensis    0.00%    passed     98.72%
+  27  Plethodon_yonhalossee         0.00%    passed     99.93%
+****  TOTAL                         0.00%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Checking for duplicate sequences: done in 9.60901e-05 secs using 42.67% CPU
+Reading input tree file TreeDistLearn/data/DS1/ds1_best_mrbayes_cleaned_tree.nwk ...
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -4425.531
+Optimal log-likelihood: -4425.531
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Parameters optimization took 1 rounds (0.000 sec)
+Wrote distance file to... 
+BEST SCORE FOUND : -4425.531
+Total tree length: 0.431
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 0.008 sec (0h:0m:0s)
+Total wall-clock time used: 0.008 sec (0h:0m:0s)
+
+Analysis results written to: 
+  IQ-TREE report:                TreeDistLearn/data/DS1_synth_1000/iqfiles/gt_out.iqtree
+  Maximum-likelihood tree:       TreeDistLearn/data/DS1_synth_1000/iqfiles/gt_out.treefile
+  Screen log file:               TreeDistLearn/data/DS1_synth_1000/iqfiles/gt_out.log
+
+Date and Time: Fri Feb 27 10:32:55 2026

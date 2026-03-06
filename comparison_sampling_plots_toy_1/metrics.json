@@ -1,0 +1,20 @@
+{
+  "topology_matching": "bipartition-based (correct)",
+  "n_unique_topologies_union": 4,
+  "n_unique_topologies_ours": 3,
+  "n_unique_topologies_mrbayes": 1,
+  "n_overlap": 0,
+  "KL_ours_given_mrbayes": 13.69962311586177,
+  "KL_mrbayes_given_ours": 13.815433857471826,
+  "total_variation_distance": 0.99999600001,
+  "hellinger_distance": 0.9989029481564824,
+  "top1_recall": 0.0,
+  "top5_recall": 1.0,
+  "top10_recall": 1.0,
+  "map_topology_match": false,
+  "our_map_prob": 0.978999021000979,
+  "mb_map_prob": 0.9999970000090003,
+  "mean_rf_ours_vs_mrbayes": 0.067,
+  "mean_rf_within_mrbayes": 0.0,
+  "mean_rf_within_ours": 0.146
+}

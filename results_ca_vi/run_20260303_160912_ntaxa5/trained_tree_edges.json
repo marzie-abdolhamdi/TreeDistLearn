@@ -1,0 +1,51 @@
+[
+  {
+    "u_id": 0,
+    "v_id": 7,
+    "u_label": "Taxon1",
+    "v_label": "i7",
+    "length": 0.03880340912064854
+  },
+  {
+    "u_id": 1,
+    "v_id": 5,
+    "u_label": "Taxon4",
+    "v_label": "i5",
+    "length": 0.1634803650090185
+  },
+  {
+    "u_id": 2,
+    "v_id": 5,
+    "u_label": "Taxon5",
+    "v_label": "i5",
+    "length": 0.20152600764126224
+  },
+  {
+    "u_id": 3,
+    "v_id": 6,
+    "u_label": "Taxon3",
+    "v_label": "i6",
+    "length": 0.03889232543680901
+  },
+  {
+    "u_id": 4,
+    "v_id": 7,
+    "u_label": "Taxon2",
+    "v_label": "i7",
+    "length": 0.163446906413773
+  },
+  {
+    "u_id": 5,
+    "v_id": 6,
+    "u_label": "i5",
+    "v_label": "i6",
+    "length": 0.10346278353175914
+  },
+  {
+    "u_id": 6,
+    "v_id": 7,
+    "u_label": "i6",
+    "v_label": "i7",
+    "length": 0.052780293045823566
+  }
+]

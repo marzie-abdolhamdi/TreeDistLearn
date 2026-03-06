@@ -1,0 +1,22 @@
+#NEXUS
+[ID: 7814511515]
+begin taxa;
+	dimensions ntax=5;
+	taxlabels
+		Taxon1
+		Taxon2
+		Taxon5
+		Taxon4
+		Taxon3
+		;
+end;
+begin trees;
+	translate
+		1	Taxon1,
+		2	Taxon2,
+		3	Taxon5,
+		4	Taxon4,
+		5	Taxon3
+		;
+   tree con_50_majrule = [&U] (1[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0"]:9.212573e-02[&length_mean=9.25082337e-02,length_median=9.21257300e-02,length_95%HPD={7.26666000e-02,1.13910100e-01}],2[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0"]:9.373074e-02[&length_mean=9.44288251e-02,length_median=9.37307400e-02,length_95%HPD={7.18079000e-02,1.17521000e-01}],((3[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0"]:2.006119e-01[&length_mean=2.01045647e-01,length_median=2.00611900e-01,length_95%HPD={1.65679800e-01,2.31266700e-01}],4[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0"]:1.625205e-01[&length_mean=1.62949251e-01,length_median=1.62520500e-01,length_95%HPD={1.33967100e-01,1.95242900e-01}])[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0"]:4.289169e-02[&length_mean=4.38431163e-02,length_median=4.28916900e-02,length_95%HPD={2.59097900e-02,6.64803200e-02}],5[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0"]:1.594996e-01[&length_mean=1.59979788e-01,length_median=1.59499600e-01,length_95%HPD={1.32384000e-01,1.86230800e-01}])[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0"]:5.543408e-02[&length_mean=5.56705195e-02,length_median=5.54340800e-02,length_95%HPD={3.85102300e-02,7.49412300e-02}]);
+end;

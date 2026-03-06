@@ -1,0 +1,67 @@
+#NEXUS
+
+BEGIN TAXA;
+	DIMENSIONS NTAX=27;
+	TAXLABELS
+		Amphiuma_tridactylum
+		Rattus_norvegicus
+		Nesomantis_thomasseti
+		Turdus_migratorius
+		Latimeria_chalumnae
+		Ambystoma_mexicanum
+		Heterodon_platyrhinos
+		Bufo_valliceps
+		Gastrophryne_carolinensis
+		Ichthyophis_bannanicus
+		Eleutherodactylus_cuneatus
+		Xenopus_laevis
+		Hyla_cinerea
+		Scaphiopus_holbrooki
+		Trachemys_scripta
+		Oryctolagus_cuniculus
+		Hypogeophis_rostratus
+		Discoglossus_pictus
+		Gallus_gallus
+		Typhlonectes_natans
+		Homo_sapiens
+		Sceloporus_undulatus
+		Mus_musculus
+		Siren_intermedia
+		Grandisonia_alternans
+		Alligator_mississippiensis
+		Plethodon_yonhalossee
+	;
+END;
+
+BEGIN TREES;
+	TRANSLATE
+		1 Amphiuma_tridactylum,
+		2 Rattus_norvegicus,
+		3 Nesomantis_thomasseti,
+		4 Turdus_migratorius,
+		5 Latimeria_chalumnae,
+		6 Ambystoma_mexicanum,
+		7 Heterodon_platyrhinos,
+		8 Bufo_valliceps,
+		9 Gastrophryne_carolinensis,
+		10 Ichthyophis_bannanicus,
+		11 Eleutherodactylus_cuneatus,
+		12 Xenopus_laevis,
+		13 Hyla_cinerea,
+		14 Scaphiopus_holbrooki,
+		15 Trachemys_scripta,
+		16 Oryctolagus_cuniculus,
+		17 Hypogeophis_rostratus,
+		18 Discoglossus_pictus,
+		19 Gallus_gallus,
+		20 Typhlonectes_natans,
+		21 Homo_sapiens,
+		22 Sceloporus_undulatus,
+		23 Mus_musculus,
+		24 Siren_intermedia,
+		25 Grandisonia_alternans,
+		26 Alligator_mississippiensis,
+		27 Plethodon_yonhalossee
+	;
+	TREE tree_1 = ((((8:0.031799,13:0.122322):0.009893,18:0.055739):0.001617,((((((((4:0.021360,19:0.038905):0.011108,(7:0.005160,22:0.039454):0.008276):0.062842,(15:0.004652,26:0.112602):0.009625):0.047072,(16:0.225141,(21:0.043429,(2:0.013347,23:0.007371):0.015540):0.006263):0.025702):0.007818,5:0.198120):0.011281,12:0.104475):0.001237,(6:0.055155,24:0.028148):0.109720):0.002210,20:0.058996):0.001622):0.001473,(9:0.141701,(3:0.013938,11:0.045593):0.011328):0.008370,(((10:0.019171,(1:0.003340,25:0.091492):0.023905):0.004168,17:0.283048):0.003929,(14:0.023062,27:0.061424):0.077174):0.008933);
+END;

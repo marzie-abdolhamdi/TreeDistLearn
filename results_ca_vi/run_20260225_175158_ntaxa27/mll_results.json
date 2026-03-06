@@ -1,0 +1,13 @@
+{
+  "mll": -6991.7530125139865,
+  "k_mll": 1000,
+  "ess": 1.3345077627320714,
+  "ess_pct": 0.13345077627320714,
+  "log_weight_mean": -7022.743761639128,
+  "log_weight_std": 10.272756511055583,
+  "log_weight_min": -7068.783630151857,
+  "log_weight_max": -6984.995558020459,
+  "n_valid_samples": 1000,
+  "note_topology_prior": "uniform p(tau) excluded (same as PhyloGFN/ARTree)",
+  "note_initial_branches": "3 initial star branches fixed by JC MLE \u2014 prior included in log_p_b but not in log_q, making MLL conservative."
+}

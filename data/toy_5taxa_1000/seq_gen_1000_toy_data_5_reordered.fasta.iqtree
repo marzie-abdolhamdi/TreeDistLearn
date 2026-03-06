@@ -1,0 +1,116 @@
+IQ-TREE 3.0.1 built Jul  9 2025
+
+Input file name: TaxaADD/data/seq_gen_1000_toy_data_5_reordered.fasta
+Type of analysis: tree reconstruction
+Random seed number: 182443
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Please also cite the following paper(s) for the feature(s) that you used:
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 5 sequences with 1000 nucleotide sites
+Number of constant sites: 458 (= 45.8% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 458 (= 45.8% of all sites)
+Number of parsimony informative sites: 128
+Number of distinct site patterns: 205
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: JC
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 1.0000
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 1.0000
+  G-T: 1.0000
+
+State frequencies: (equal frequencies)
+
+Rate matrix Q:
+
+  A        -1    0.3333    0.3333    0.3333
+  C    0.3333        -1    0.3333    0.3333
+  G    0.3333    0.3333        -1    0.3333
+  T    0.3333    0.3333    0.3333        -1
+
+Model of rate heterogeneity: Uniform
+
+STARTING TREE
+-------------
+
+Log-likelihood of the tree: -4287.4576 (s.e. 70.2810)
+Unconstrained log-likelihood (without tree): -3992.9935
+Number of free parameters (#branches + #model parameters): 7
+Akaike information criterion (AIC) score: 8588.9152
+Corrected Akaike information criterion (AICc) score: 8589.0281
+Bayesian information criterion (BIC) score: 8623.2695
+
+Total tree length (sum of branch lengths): 0.8092
+Sum of internal branch lengths: 0.0975 (12.0532% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Taxon1' is drawn at root
+
++-----------------Taxon1
+|
++-----------------Taxon2
+|
+|                 +---------------------------------------Taxon5
+|         +-------|
+|         |       +-------------------------------Taxon4
++---------|
+          +-------------------------------Taxon3
+
+Tree in newick format:
+
+(Taxon1:0.0923838603,Taxon2:0.0940893023,((Taxon5:0.2021540900,Taxon4:0.1631085904):0.0427671754,Taxon3:0.1599061800):0.0547641847);
+
+
+USER TREES
+----------
+
+See TaxaADD/data/seq_gen_1000_toy_data_5_reordered.fasta.trees for trees with branch lengths.
+
+Tree      logL    deltaL
+-------------------------
+  1 -4287.457599       0
+
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t TaxaADD/data/seq_gen_1000_toy_data_5_reordered.fasta.treefile -m "JC" --length 1000
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s TaxaADD/data/seq_gen_1000_toy_data_5_reordered.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s TaxaADD/data/seq_gen_1000_toy_data_5_reordered.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Sun Feb 15 15:35:12 2026
+Total CPU time used: 0.009942 seconds (0h:0m:0s)
+Total wall-clock time used: 0.011209 seconds (0h:0m:0s)
+

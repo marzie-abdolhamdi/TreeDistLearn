@@ -1,0 +1,1313 @@
+
+
+                            MrBayes 3.2.7 x86_64
+
+                      (Bayesian Analysis of Phylogeny)
+
+              Distributed under the GNU General Public License
+
+
+               Type "help" or "help <command>" for information
+                     on the commands that are available.
+
+                   Type "about" for authorship and general
+                       information about the program.
+
+
+
+   Executing file "seq_gen_DS1_for_mb.nex"
+   UNIX line termination
+   Longest line length = 1029
+   Parsing file
+   Expecting NEXUS formatted file
+   Reading data block
+      Allocated taxon set
+      Allocated matrix
+      Defining new matrix with 27 taxa and 1000 characters
+      Data is Dna
+      Missing data coded as ?
+      Gaps coded as -
+      Taxon  1 -> Alligator_mississippiensis
+      Taxon  2 -> Trachemys_scripta
+      Taxon  3 -> Amphiuma_tridactylum
+      Taxon  4 -> Grandisonia_alternans
+      Taxon  5 -> Hypogeophis_rostratus
+      Taxon  6 -> Homo_sapiens
+      Taxon  7 -> Mus_musculus
+      Taxon  8 -> Rattus_norvegicus
+      Taxon  9 -> Sceloporus_undulatus
+      Taxon 10 -> Heterodon_platyrhinos
+      Taxon 11 -> Ambystoma_mexicanum
+      Taxon 12 -> Siren_intermedia
+      Taxon 13 -> Scaphiopus_holbrooki
+      Taxon 14 -> Plethodon_yonhalossee
+      Taxon 15 -> Discoglossus_pictus
+      Taxon 16 -> Hyla_cinerea
+      Taxon 17 -> Eleutherodactylus_cuneatus
+      Taxon 18 -> Xenopus_laevis
+      Taxon 19 -> Latimeria_chalumnae
+      Taxon 20 -> Typhlonectes_natans
+      Taxon 21 -> Gallus_gallus
+      Taxon 22 -> Turdus_migratorius
+      Taxon 23 -> Nesomantis_thomasseti
+      Taxon 24 -> Oryctolagus_cuniculus
+      Taxon 25 -> Ichthyophis_bannanicus
+      Taxon 26 -> Bufo_valliceps
+      Taxon 27 -> Gastrophryne_carolinensis
+      Successfully read matrix
+      Setting default partition (does not divide up characters)
+      Setting model defaults
+      Seed (for generating default start values) = 1772026586
+      Setting output file names to "seq_gen_DS1_for_mb.nex.run<i>.<p|t>"
+   Exiting data block
+   Reading mrbayes block
+      Setting autoclose to yes
+      Setting nowarnings to yes
+      Setting Nst to 1
+      Setting Rates to Equal
+      Successfully set likelihood model parameters
+      Setting Brlenspr to Unconstrained:Exponential(10.00)
+      Setting Statefreqpr to Fixed(Equal)
+      Successfully set prior model parameters
+      Setting number of generations to 2000000
+      Setting sample frequency to 1000
+      Setting burnin fraction to 0.25
+      Setting number of chains to 4
+      Setting print frequency to 50000
+      Setting diagnosing frequency to 10000
+      Successfully set chain parameters
+      Running Markov chain
+      MCMC stamp = 5644846593
+      Seed = 1731792044
+      Swapseed = 1772026586
+      Model settings:
+
+         Data not partitioned --
+            Datatype  = DNA
+            Nucmodel  = 4by4
+            Nst       = 1
+            Covarion  = No
+            # States  = 4
+                        State frequencies are fixed to be equal
+            Rates     = Equal
+
+      Active parameters: 
+
+         Parameters
+         ---------------------
+         Statefreq           1
+         Ratemultiplier      2
+         Topology            3
+         Brlens              4
+         ---------------------
+
+         1 --  Parameter  = Pi
+               Type       = Stationary state frequencies
+               Prior      = Fixed
+
+         2 --  Parameter  = Ratemultiplier
+               Type       = Partition-specific rate multiplier
+               Prior      = Fixed(1.0)
+
+         3 --  Parameter  = Tau
+               Type       = Topology
+               Prior      = All topologies equally probable a priori
+               Subparam.  = V
+
+         4 --  Parameter  = V
+               Type       = Branch lengths
+               Prior      = Unconstrained:Exponential(10.0)
+
+
+
+      The MCMC sampler will use the following moves:
+         With prob.  Chain will use move
+           10.00 %   ExtSPR(Tau,V)
+           10.00 %   ExtTBR(Tau,V)
+           10.00 %   NNI(Tau,V)
+           10.00 %   ParsSPR(Tau,V)
+           40.00 %   Multiplier(V)
+           14.00 %   Nodeslider(V)
+            6.00 %   TLMultiplier(V)
+
+      Division 1 has 303 unique site patterns
+      Initializing conditional likelihoods
+
+      Running benchmarks to automatically select fastest BEAGLE resource...       Failed to start BEAGLE instance
+      Using standard FMA likelihood calculator for division 1 (single-precision)
+
+      Initial log likelihoods and log prior probs for run 1:
+         Chain 1 -- -7207.913536 -- 34.086358
+         Chain 2 -- -7321.183080 -- 34.086358
+         Chain 3 -- -7703.625920 -- 34.086358
+         Chain 4 -- -7643.465949 -- 34.086358
+
+      Initial log likelihoods and log prior probs for run 2:
+         Chain 1 -- -7255.252600 -- 34.086358
+         Chain 2 -- -7523.520707 -- 34.086358
+         Chain 3 -- -7769.274763 -- 34.086358
+         Chain 4 -- -7147.296986 -- 34.086358
+
+
+      Using a relative burnin of 25.0 % for diagnostics
+
+      Chain results (2000000 generations requested):
+
+          0 -- [-7207.914] (-7321.183) (-7703.626) (-7643.466) * [-7255.253] (-7523.521) (-7769.275) (-7147.297) 
+
+      Average standard deviation of split frequencies: 0.006285
+
+
+      Average standard deviation of split frequencies: 0.003683
+
+
+      Average standard deviation of split frequencies: 0.001228
+
+
+      Average standard deviation of split frequencies: 0.002851
+
+      50000 -- (-4436.779) (-4421.876) (-4427.182) [-4428.366] * (-4440.138) [-4441.292] (-4430.160) (-4432.826) -- 0:08:26
+
+      Average standard deviation of split frequencies: 0.002266
+
+
+      Average standard deviation of split frequencies: 0.001921
+
+
+      Average standard deviation of split frequencies: 0.001091
+
+
+      Average standard deviation of split frequencies: 0.000483
+
+
+      Average standard deviation of split frequencies: 0.000854
+
+      100000 -- [-4425.098] (-4432.922) (-4436.341) (-4431.083) * [-4418.961] (-4423.647) (-4434.773) (-4436.525) -- 0:08:13
+
+      Average standard deviation of split frequencies: 0.000388
+
+
+      Average standard deviation of split frequencies: 0.001403
+
+
+      Average standard deviation of split frequencies: 0.000971
+
+
+      Average standard deviation of split frequencies: 0.000595
+
+
+      Average standard deviation of split frequencies: 0.000000
+
+      150000 -- (-4429.392) [-4427.252] (-4433.708) (-4438.834) * (-4430.737) [-4421.240] (-4425.813) (-4442.927) -- 0:07:48
+
+      Average standard deviation of split frequencies: 0.000000
+
+
+      Average standard deviation of split frequencies: 0.000000
+
+
+      Average standard deviation of split frequencies: 0.000228
+
+
+      Average standard deviation of split frequencies: 0.000217
+
+
+      Average standard deviation of split frequencies: 0.000409
+
+      200000 -- [-4416.505] (-4430.920) (-4432.136) (-4424.783) * (-4429.475) [-4423.776] (-4428.514) (-4418.236) -- 0:07:39
+
+      Average standard deviation of split frequencies: 0.000000
+
+
+      Average standard deviation of split frequencies: 0.000000
+
+
+      Average standard deviation of split frequencies: 0.000000
+
+
+      Average standard deviation of split frequencies: 0.000000
+
+
+      Average standard deviation of split frequencies: 0.000000
+
+      250000 -- (-4412.234) (-4433.918) (-4435.331) [-4419.222] * [-4424.338] (-4431.039) (-4431.118) (-4425.751) -- 0:07:28
+
+      Average standard deviation of split frequencies: 0.000000
+
+
+      Average standard deviation of split frequencies: 0.000150
+
+
+      Average standard deviation of split frequencies: 0.000144
+
+
+      Average standard deviation of split frequencies: 0.000140
+
+
+      Average standard deviation of split frequencies: 0.000135
+
+      300000 -- (-4430.791) [-4425.688] (-4430.346) (-4437.801) * [-4417.201] (-4432.705) (-4427.004) (-4422.472) -- 0:07:16
+
+      Average standard deviation of split frequencies: 0.000130
+
+
+      Average standard deviation of split frequencies: 0.000252
+
+
+      Average standard deviation of split frequencies: 0.000122
+
+
+      Average standard deviation of split frequencies: 0.000237
+
+
+      Average standard deviation of split frequencies: 0.000115
+
+      350000 -- [-4423.937] (-4431.782) (-4431.096) (-4427.689) * (-4443.863) [-4417.922] (-4429.857) (-4431.951) -- 0:07:04
+
+      Average standard deviation of split frequencies: 0.000223
+
+
+      Average standard deviation of split frequencies: 0.000435
+
+
+      Average standard deviation of split frequencies: 0.000422
+
+
+      Average standard deviation of split frequencies: 0.000412
+
+
+      Average standard deviation of split frequencies: 0.000401
+
+      400000 -- (-4422.828) [-4425.098] (-4433.828) (-4426.813) * (-4431.201) [-4437.369] (-4430.993) (-4438.401) -- 0:06:52
+
+      Average standard deviation of split frequencies: 0.000098
+
+
+      Average standard deviation of split frequencies: 0.000286
+
+
+      Average standard deviation of split frequencies: 0.000093
+
+
+      Average standard deviation of split frequencies: 0.000182
+
+
+      Average standard deviation of split frequencies: 0.000445
+
+      450000 -- (-4429.327) (-4427.179) [-4423.939] (-4433.835) * (-4436.545) [-4422.603] (-4425.131) (-4424.151) -- 0:06:39
+
+      Average standard deviation of split frequencies: 0.000435
+
+
+      Average standard deviation of split frequencies: 0.000341
+
+
+      Average standard deviation of split frequencies: 0.000416
+
+
+      Average standard deviation of split frequencies: 0.000326
+
+
+      Average standard deviation of split frequencies: 0.000319
+
+      500000 -- (-4422.750) [-4419.347] (-4438.725) (-4431.052) * [-4425.885] (-4431.703) (-4430.194) (-4438.512) -- 0:06:27
+
+      Average standard deviation of split frequencies: 0.000392
+
+
+      Average standard deviation of split frequencies: 0.000384
+
+
+      Average standard deviation of split frequencies: 0.000377
+
+
+      Average standard deviation of split frequencies: 0.000443
+
+
+      Average standard deviation of split frequencies: 0.000363
+
+      550000 -- (-4437.502) (-4417.184) (-4418.063) [-4437.747] * [-4424.718] (-4426.303) (-4435.796) (-4445.978) -- 0:06:14
+
+      Average standard deviation of split frequencies: 0.000356
+
+
+      Average standard deviation of split frequencies: 0.000350
+
+
+      Average standard deviation of split frequencies: 0.000412
+
+
+      Average standard deviation of split frequencies: 0.000338
+
+
+      Average standard deviation of split frequencies: 0.000332
+
+      600000 -- (-4426.218) [-4429.601] (-4433.136) (-4421.917) * (-4431.531) (-4439.280) (-4428.548) [-4435.949] -- 0:06:01
+
+      Average standard deviation of split frequencies: 0.000261
+
+
+      Average standard deviation of split frequencies: 0.000257
+
+
+      Average standard deviation of split frequencies: 0.000253
+
+
+      Average standard deviation of split frequencies: 0.000249
+
+
+      Average standard deviation of split frequencies: 0.000123
+
+      650000 -- (-4436.682) [-4426.536] (-4439.583) (-4440.085) * (-4430.419) (-4423.225) (-4436.032) [-4432.612] -- 0:05:48
+
+      Average standard deviation of split frequencies: 0.000181
+
+
+      Average standard deviation of split frequencies: 0.000178
+
+
+      Average standard deviation of split frequencies: 0.000175
+
+
+      Average standard deviation of split frequencies: 0.000231
+
+
+      Average standard deviation of split frequencies: 0.000227
+
+      700000 -- (-4421.903) (-4444.087) (-4436.254) [-4424.992] * (-4431.087) [-4427.363] (-4432.187) (-4430.030) -- 0:05:36
+
+      Average standard deviation of split frequencies: 0.000224
+
+
+      Average standard deviation of split frequencies: 0.000166
+
+
+      Average standard deviation of split frequencies: 0.000163
+
+
+      Average standard deviation of split frequencies: 0.000215
+
+
+      Average standard deviation of split frequencies: 0.000265
+
+      750000 -- (-4425.714) [-4431.342] (-4426.124) (-4436.982) * (-4421.841) [-4430.752] (-4432.948) (-4437.360) -- 0:05:23
+
+      Average standard deviation of split frequencies: 0.000209
+
+
+      Average standard deviation of split frequencies: 0.000206
+
+
+      Average standard deviation of split frequencies: 0.000254
+
+
+      Average standard deviation of split frequencies: 0.000201
+
+
+      Average standard deviation of split frequencies: 0.000149
+
+      800000 -- (-4430.269) [-4430.797] (-4424.956) (-4427.830) * [-4421.155] (-4444.016) (-4448.354) (-4433.900) -- 0:05:10
+
+      Average standard deviation of split frequencies: 0.000245
+
+
+      Average standard deviation of split frequencies: 0.000242
+
+
+      Average standard deviation of split frequencies: 0.000239
+
+
+      Average standard deviation of split frequencies: 0.000283
+
+
+      Average standard deviation of split frequencies: 0.000187
+
+      850000 -- [-4429.715] (-4429.212) (-4425.333) (-4426.214) * (-4434.451) [-4415.616] (-4453.375) (-4427.473) -- 0:04:56
+
+      Average standard deviation of split frequencies: 0.000138
+
+
+      Average standard deviation of split frequencies: 0.000182
+
+
+      Average standard deviation of split frequencies: 0.000180
+
+
+      Average standard deviation of split frequencies: 0.000134
+
+
+      Average standard deviation of split frequencies: 0.000132
+
+      900000 -- (-4430.430) (-4420.047) [-4429.597] (-4423.880) * (-4434.455) (-4432.655) (-4422.716) [-4430.507] -- 0:04:43
+
+      Average standard deviation of split frequencies: 0.000131
+
+
+      Average standard deviation of split frequencies: 0.000129
+
+
+      Average standard deviation of split frequencies: 0.000128
+
+
+      Average standard deviation of split frequencies: 0.000084
+
+
+      Average standard deviation of split frequencies: 0.000083
+
+      950000 -- (-4432.461) (-4422.414) [-4432.649] (-4429.355) * (-4430.791) (-4438.155) [-4429.165] (-4419.748) -- 0:04:30
+
+      Average standard deviation of split frequencies: 0.000124
+
+
+      Average standard deviation of split frequencies: 0.000163
+
+
+      Average standard deviation of split frequencies: 0.000162
+
+
+      Average standard deviation of split frequencies: 0.000160
+
+
+      Average standard deviation of split frequencies: 0.000198
+
+      1000000 -- (-4440.253) (-4430.722) (-4422.492) [-4424.623] * (-4426.461) [-4429.402] (-4439.182) (-4428.463) -- 0:04:18
+
+      Average standard deviation of split frequencies: 0.000196
+
+
+      Average standard deviation of split frequencies: 0.000233
+
+
+      Average standard deviation of split frequencies: 0.000231
+
+
+      Average standard deviation of split frequencies: 0.000266
+
+
+      Average standard deviation of split frequencies: 0.000226
+
+      1050000 -- (-4437.985) (-4433.946) [-4420.635] (-4423.778) * (-4426.906) [-4423.142] (-4433.007) (-4434.470) -- 0:04:05
+
+      Average standard deviation of split frequencies: 0.000261
+
+
+      Average standard deviation of split frequencies: 0.000259
+
+
+      Average standard deviation of split frequencies: 0.000257
+
+
+      Average standard deviation of split frequencies: 0.000218
+
+
+      Average standard deviation of split frequencies: 0.000288
+
+      1100000 -- [-4417.029] (-4435.267) (-4428.373) (-4430.205) * (-4427.428) (-4430.918) (-4430.081) [-4430.127] -- 0:03:52
+
+      Average standard deviation of split frequencies: 0.000250
+
+
+      Average standard deviation of split frequencies: 0.000247
+
+
+      Average standard deviation of split frequencies: 0.000315
+
+
+      Average standard deviation of split frequencies: 0.000278
+
+
+      Average standard deviation of split frequencies: 0.000241
+
+      1150000 -- [-4430.783] (-4417.275) (-4440.588) (-4431.018) * [-4422.066] (-4433.731) (-4431.141) (-4424.948) -- 0:03:39
+
+      Average standard deviation of split frequencies: 0.000171
+
+
+      Average standard deviation of split frequencies: 0.000135
+
+
+      Average standard deviation of split frequencies: 0.000134
+
+
+      Average standard deviation of split frequencies: 0.000133
+
+
+      Average standard deviation of split frequencies: 0.000132
+
+      1200000 -- [-4442.093] (-4440.543) (-4428.812) (-4445.740) * (-4427.428) (-4431.376) (-4429.226) [-4427.116] -- 0:03:26
+
+      Average standard deviation of split frequencies: 0.000131
+
+
+      Average standard deviation of split frequencies: 0.000130
+
+
+      Average standard deviation of split frequencies: 0.000161
+
+
+      Average standard deviation of split frequencies: 0.000128
+
+
+      Average standard deviation of split frequencies: 0.000158
+
+      1250000 -- (-4421.759) [-4425.232] (-4435.006) (-4429.132) * (-4432.273) (-4439.850) [-4433.971] (-4421.395) -- 0:03:13
+
+      Average standard deviation of split frequencies: 0.000157
+
+
+      Average standard deviation of split frequencies: 0.000156
+
+
+      Average standard deviation of split frequencies: 0.000154
+
+
+      Average standard deviation of split frequencies: 0.000153
+
+
+      Average standard deviation of split frequencies: 0.000152
+
+      1300000 -- (-4438.659) (-4429.301) (-4429.228) [-4440.029] * [-4427.271] (-4423.385) (-4423.291) (-4432.693) -- 0:03:00
+
+      Average standard deviation of split frequencies: 0.000211
+
+
+      Average standard deviation of split frequencies: 0.000210
+
+
+      Average standard deviation of split frequencies: 0.000208
+
+
+      Average standard deviation of split frequencies: 0.000177
+
+
+      Average standard deviation of split frequencies: 0.000234
+
+      1350000 -- [-4420.632] (-4431.116) (-4425.025) (-4434.264) * (-4434.786) (-4418.402) [-4420.714] (-4439.920) -- 0:02:48
+
+      Average standard deviation of split frequencies: 0.000232
+
+
+      Average standard deviation of split frequencies: 0.000202
+
+
+      Average standard deviation of split frequencies: 0.000229
+
+
+      Average standard deviation of split frequencies: 0.000228
+
+
+      Average standard deviation of split frequencies: 0.000226
+
+      1400000 -- (-4439.995) (-4429.861) (-4434.157) [-4427.893] * (-4437.756) (-4425.384) (-4431.633) [-4430.605] -- 0:02:35
+
+      Average standard deviation of split frequencies: 0.000252
+
+
+      Average standard deviation of split frequencies: 0.000278
+
+
+      Average standard deviation of split frequencies: 0.000304
+
+
+      Average standard deviation of split frequencies: 0.000302
+
+
+      Average standard deviation of split frequencies: 0.000354
+
+      1450000 -- (-4442.213) [-4421.717] (-4425.714) (-4439.525) * (-4438.024) [-4427.418] (-4430.064) (-4426.228) -- 0:02:22
+
+      Average standard deviation of split frequencies: 0.000379
+
+
+      Average standard deviation of split frequencies: 0.000430
+
+
+      Average standard deviation of split frequencies: 0.000427
+
+
+      Average standard deviation of split frequencies: 0.000451
+
+
+      Average standard deviation of split frequencies: 0.000474
+
+      1500000 -- (-4432.184) (-4421.433) (-4426.903) [-4419.941] * (-4428.243) (-4434.248) (-4437.590) [-4434.281] -- 0:02:09
+
+      Average standard deviation of split frequencies: 0.000471
+
+
+      Average standard deviation of split frequencies: 0.000468
+
+
+      Average standard deviation of split frequencies: 0.000491
+
+
+      Average standard deviation of split frequencies: 0.000462
+
+
+      Average standard deviation of split frequencies: 0.000484
+
+      1550000 -- [-4426.368] (-4438.847) (-4431.432) (-4430.997) * (-4444.117) (-4414.259) (-4437.071) [-4422.691] -- 0:01:56
+
+      Average standard deviation of split frequencies: 0.000456
+
+
+      Average standard deviation of split frequencies: 0.000403
+
+
+      Average standard deviation of split frequencies: 0.000425
+
+
+      Average standard deviation of split frequencies: 0.000422
+
+
+      Average standard deviation of split frequencies: 0.000370
+
+      1600000 -- (-4424.882) (-4443.610) (-4420.279) [-4429.242] * (-4429.580) [-4426.021] (-4438.382) (-4433.026) -- 0:01:43
+
+      Average standard deviation of split frequencies: 0.000319
+
+
+      Average standard deviation of split frequencies: 0.000317
+
+
+      Average standard deviation of split frequencies: 0.000339
+
+
+      Average standard deviation of split frequencies: 0.000337
+
+
+      Average standard deviation of split frequencies: 0.000359
+
+      1650000 -- [-4425.673] (-4432.751) (-4434.185) (-4426.511) * (-4427.301) (-4422.238) [-4427.534] (-4427.152) -- 0:01:30
+
+      Average standard deviation of split frequencies: 0.000380
+
+
+      Average standard deviation of split frequencies: 0.000378
+
+
+      Average standard deviation of split frequencies: 0.000329
+
+
+      Average standard deviation of split frequencies: 0.000280
+
+
+      Average standard deviation of split frequencies: 0.000279
+
+      1700000 -- (-4428.761) (-4422.192) [-4422.256] (-4444.507) * (-4432.703) (-4436.472) [-4429.663] (-4425.678) -- 0:01:17
+
+      Average standard deviation of split frequencies: 0.000254
+
+
+      Average standard deviation of split frequencies: 0.000252
+
+
+      Average standard deviation of split frequencies: 0.000251
+
+
+      Average standard deviation of split frequencies: 0.000249
+
+
+      Average standard deviation of split frequencies: 0.000226
+
+      1750000 -- (-4427.599) (-4434.399) [-4426.771] (-4430.139) * (-4423.873) [-4418.918] (-4422.860) (-4437.990) -- 0:01:04
+
+      Average standard deviation of split frequencies: 0.000202
+
+
+      Average standard deviation of split frequencies: 0.000178
+
+
+      Average standard deviation of split frequencies: 0.000177
+
+
+      Average standard deviation of split frequencies: 0.000154
+
+
+      Average standard deviation of split frequencies: 0.000132
+
+      1800000 -- [-4418.765] (-4428.691) (-4437.226) (-4425.251) * (-4424.940) (-4424.168) (-4432.303) [-4417.701] -- 0:00:51
+
+      Average standard deviation of split frequencies: 0.000131
+
+
+      Average standard deviation of split frequencies: 0.000108
+
+
+      Average standard deviation of split frequencies: 0.000151
+
+
+      Average standard deviation of split frequencies: 0.000150
+
+
+      Average standard deviation of split frequencies: 0.000128
+
+      1850000 -- (-4424.074) (-4419.673) (-4429.553) [-4420.426] * [-4425.990] (-4420.394) (-4430.928) (-4435.637) -- 0:00:38
+
+      Average standard deviation of split frequencies: 0.000148
+
+
+      Average standard deviation of split frequencies: 0.000169
+
+
+      Average standard deviation of split frequencies: 0.000126
+
+
+      Average standard deviation of split frequencies: 0.000104
+
+
+      Average standard deviation of split frequencies: 0.000104
+
+      1900000 -- [-4417.150] (-4424.974) (-4432.784) (-4430.126) * (-4442.107) (-4441.583) [-4431.003] (-4425.139) -- 0:00:25
+
+      Average standard deviation of split frequencies: 0.000124
+
+
+      Average standard deviation of split frequencies: 0.000123
+
+
+      Average standard deviation of split frequencies: 0.000102
+
+
+      Average standard deviation of split frequencies: 0.000142
+
+
+      Average standard deviation of split frequencies: 0.000142
+
+      1950000 -- (-4428.018) [-4432.482] (-4422.835) (-4433.068) * (-4438.602) [-4425.876] (-4422.958) (-4427.409) -- 0:00:12
+
+      Average standard deviation of split frequencies: 0.000141
+
+      Average standard deviation of split frequencies: 0.000140
+
+      Average standard deviation of split frequencies: 0.000120
+
+      Average standard deviation of split frequencies: 0.000099
+
+      Average standard deviation of split frequencies: 0.000079
+      2000000 -- [-4420.591] (-4445.764) (-4442.508) (-4426.354) * (-4419.819) (-4440.558) [-4421.069] (-4431.170) -- 0:00:00
+
+      Average standard deviation of split frequencies: 0.000079
+
+      Analysis completed in 8 mins 37 seconds
+      Analysis used 514.74 seconds of CPU time
+      Likelihood of best state for "cold" chain of run 1 was -4407.78
+      Likelihood of best state for "cold" chain of run 2 was -4407.56
+
+      Acceptance rates for the moves in the "cold" chain of run 1:
+         With prob.   (last 100)   chain accepted proposals by move
+             0.2 %     (  1 %)     ExtSPR(Tau,V)
+             0.2 %     (  0 %)     ExtTBR(Tau,V)
+             0.3 %     (  0 %)     NNI(Tau,V)
+             0.3 %     (  1 %)     ParsSPR(Tau,V)
+            25.9 %     ( 28 %)     Multiplier(V)
+            35.3 %     ( 29 %)     Nodeslider(V)
+            24.7 %     ( 33 %)     TLMultiplier(V)
+
+      Acceptance rates for the moves in the "cold" chain of run 2:
+         With prob.   (last 100)   chain accepted proposals by move
+             0.2 %     (  0 %)     ExtSPR(Tau,V)
+             0.2 %     (  1 %)     ExtTBR(Tau,V)
+             0.3 %     (  0 %)     NNI(Tau,V)
+             0.3 %     (  0 %)     ParsSPR(Tau,V)
+            25.8 %     ( 27 %)     Multiplier(V)
+            35.3 %     ( 41 %)     Nodeslider(V)
+            24.8 %     ( 30 %)     TLMultiplier(V)
+
+      Chain swap information for run 1:
+
+                   1       2       3       4 
+           ----------------------------------
+         1 |            0.72    0.49    0.32 
+         2 |  333220            0.74    0.53 
+         3 |  333692  333227            0.76 
+         4 |  333361  333138  333362         
+
+      Chain swap information for run 2:
+
+                   1       2       3       4 
+           ----------------------------------
+         1 |            0.72    0.49    0.32 
+         2 |  333058            0.74    0.52 
+         3 |  333388  333795            0.76 
+         4 |  333329  332210  334220         
+
+      Upper diagonal: Proportion of successful state exchanges between chains
+      Lower diagonal: Number of attempted state exchanges between chains
+
+      Chain information:
+
+        ID -- Heat 
+       -----------
+         1 -- 1.00  (cold chain)
+         2 -- 0.91 
+         3 -- 0.83 
+         4 -- 0.77 
+
+      Heat = 1 / (1 + T * (ID - 1))
+         (where T = 0.10 is the temperature and ID is the chain number)
+
+      Setting urn-in to 500
+      Summarizing trees in files "seq_gen_DS1_for_mb.nex.run1.t" and "seq_gen_DS1_for_mb.nex.run2.t"
+      Using relative burnin ('relburnin=yes'), discarding the first 25 % of sampled trees
+      Writing statistics to files seq_gen_DS1_for_mb.nex.<parts|tstat|vstat|trprobs|con>
+      Examining first file ...
+      Found one tree block in file "seq_gen_DS1_for_mb.nex.run1.t" with 2001 trees in last block
+      Expecting the same number of trees in the last tree block of all files
+
+      Tree reading status:
+
+      0      10      20      30      40      50      60      70      80      90     100
+      v-------v-------v-------v-------v-------v-------v-------v-------v-------v-------v
+      *********************************************************************************
+
+      Read a total of 4002 trees in 2 files (sampling 3002 of them)
+         (Each file contained 2001 trees of which 1501 were sampled)
+                                                                                   
+      General explanation:                                                          
+                                                                                   
+      In an unrooted tree, a taxon bipartition (split) is specified by removing a   
+      branch, thereby dividing the species into those to the left and those to the  
+      right of the branch. Here, taxa to one side of the removed branch are denoted 
+      '.' and those to the other side are denoted '*'. Specifically, the '.' symbol 
+      is used for the taxa on the same side as the outgroup.                        
+                                                                                   
+      In a rooted or clock tree, the tree is rooted using the model and not by      
+      reference to an outgroup. Each bipartition therefore corresponds to a clade,  
+      that is, a group that includes all the descendants of a particular branch in  
+      the tree.  Taxa that are included in each clade are denoted using '*', and    
+      taxa that are not included are denoted using the '.' symbol.                  
+                                                                                   
+      The output first includes a key to all the bipartitions with frequency larger 
+      or equual to (Minpartfreq) in at least one run. Minpartfreq is a parameter to 
+      sumt command and currently it is set to 0.10.  This is followed by a table  
+      with statistics for the informative bipartitions (those including at least    
+      two taxa), sorted from highest to lowest probability. For each bipartition,   
+      the table gives the number of times the partition or split was observed in all
+      runs (#obs) and the posterior probability of the bipartition (Probab.), which 
+      is the same as the split frequency. If several runs are summarized, this is   
+      followed by the minimum split frequency (Min(s)), the maximum frequency       
+      (Max(s)), and the standard deviation of frequencies (Stddev(s)) across runs.  
+      The latter value should approach 0 for all bipartitions as MCMC runs converge.
+                                                                                   
+      This is followed by a table summarizing branch lengths, node heights (if a    
+      clock model was used) and relaxed clock parameters (if a relaxed clock model  
+      was used). The mean, variance, and 95 % credible interval are given for each 
+      of these parameters. If several runs are summarized, the potential scale      
+      reduction factor (PSRF) is also given; it should approach 1 as runs converge. 
+      Node heights will take calibration points into account, if such points were   
+      used in the analysis.                                                         
+                                                                                    
+      Note that Stddev may be unreliable if the partition is not present in all     
+      runs (the last column indicates the number of runs that sampled the partition 
+      if more than one run is summarized). The PSRF is not calculated at all if     
+      the partition is not present in all runs.The PSRF is also sensitive to small  
+      sample sizes and it should only be considered a rough guide to convergence    
+      since some of the assumptions allowing one to interpret it as a true potential
+      scale reduction factor are violated in MrBayes.                               
+                                                                                    
+      List of taxa in bipartitions:                                                 
+                                                                                   
+         1 -- Alligator_mississippiensis
+         2 -- Trachemys_scripta
+         3 -- Amphiuma_tridactylum
+         4 -- Grandisonia_alternans
+         5 -- Hypogeophis_rostratus
+         6 -- Homo_sapiens
+         7 -- Mus_musculus
+         8 -- Rattus_norvegicus
+         9 -- Sceloporus_undulatus
+        10 -- Heterodon_platyrhinos
+        11 -- Ambystoma_mexicanum
+        12 -- Siren_intermedia
+        13 -- Scaphiopus_holbrooki
+        14 -- Plethodon_yonhalossee
+        15 -- Discoglossus_pictus
+        16 -- Hyla_cinerea
+        17 -- Eleutherodactylus_cuneatus
+        18 -- Xenopus_laevis
+        19 -- Latimeria_chalumnae
+        20 -- Typhlonectes_natans
+        21 -- Gallus_gallus
+        22 -- Turdus_migratorius
+        23 -- Nesomantis_thomasseti
+        24 -- Oryctolagus_cuniculus
+        25 -- Ichthyophis_bannanicus
+        26 -- Bufo_valliceps
+        27 -- Gastrophryne_carolinensis
+
+      Key to taxon bipartitions (saved to file "seq_gen_DS1_for_mb.nex.parts"):
+
+      ID -- Partition
+      ---------------------------------
+       1 -- .**************************
+       2 -- .*.........................
+       3 -- ..*........................
+       4 -- ...*.......................
+       5 -- ....*......................
+       6 -- .....*.....................
+       7 -- ......*....................
+       8 -- .......*...................
+       9 -- ........*..................
+      10 -- .........*.................
+      11 -- ..........*................
+      12 -- ...........*...............
+      13 -- ............*..............
+      14 -- .............*.............
+      15 -- ..............*............
+      16 -- ...............*...........
+      17 -- ................*..........
+      18 -- .................*.........
+      19 -- ..................*........
+      20 -- ...................*.......
+      21 -- ....................*......
+      22 -- .....................*.....
+      23 -- ......................*....
+      24 -- .......................*...
+      25 -- ........................*..
+      26 -- .........................*.
+      27 -- ..........................*
+      28 -- ....................**.....
+      29 -- ..*************************
+      30 -- ..******..*****************
+      31 -- ..***.....*******..*..*.***
+      32 -- ........**.................
+      33 -- ..........**...............
+      34 -- .....***...............*...
+      35 -- ................*.....*...*
+      36 -- ..***.....********.*..*.***
+      37 -- ..**.......................
+      38 -- ..******..**********..*****
+      39 -- ..***.......**..........*..
+      40 -- ......**...................
+      41 -- ..***.....**********..*.***
+      42 -- ..***...................*..
+      43 -- ..***.....*****....*....*..
+      44 -- ..***......................
+      45 -- ............**.............
+      46 -- .....***...................
+      47 -- ..***.......***.........*..
+      48 -- ................*.....*....
+      49 -- ...............**.....*..**
+      50 -- ...............*.........*.
+      51 -- ..........**.......*.......
+      ---------------------------------
+
+      Summary statistics for informative taxon bipartitions
+         (saved to file "seq_gen_DS1_for_mb.nex.tstat"):
+
+      ID   #obs    Probab.     Sd(s)+      Min(s)      Max(s)   Nruns 
+      ----------------------------------------------------------------
+      28  3002    1.000000    0.000000    1.000000    1.000000    2
+      29  3002    1.000000    0.000000    1.000000    1.000000    2
+      30  3002    1.000000    0.000000    1.000000    1.000000    2
+      31  3002    1.000000    0.000000    1.000000    1.000000    2
+      32  3002    1.000000    0.000000    1.000000    1.000000    2
+      33  3002    1.000000    0.000000    1.000000    1.000000    2
+      34  3002    1.000000    0.000000    1.000000    1.000000    2
+      35  3002    1.000000    0.000000    1.000000    1.000000    2
+      36  3002    1.000000    0.000000    1.000000    1.000000    2
+      37  3002    1.000000    0.000000    1.000000    1.000000    2
+      38  3002    1.000000    0.000000    1.000000    1.000000    2
+      39  3002    1.000000    0.000000    1.000000    1.000000    2
+      40  3002    1.000000    0.000000    1.000000    1.000000    2
+      41  3002    1.000000    0.000000    1.000000    1.000000    2
+      42  3002    1.000000    0.000000    1.000000    1.000000    2
+      43  3002    1.000000    0.000000    1.000000    1.000000    2
+      44  3002    1.000000    0.000000    1.000000    1.000000    2
+      45  3002    1.000000    0.000000    1.000000    1.000000    2
+      46  3002    1.000000    0.000000    1.000000    1.000000    2
+      47  3001    0.999667    0.000471    0.999334    1.000000    2
+      48  3001    0.999667    0.000471    0.999334    1.000000    2
+      49  2998    0.998668    0.000000    0.998668    0.998668    2
+      50  2998    0.998668    0.000942    0.998001    0.999334    2
+      51  2856    0.951366    0.000000    0.951366    0.951366    2
+      ----------------------------------------------------------------
+      + Convergence diagnostic (standard deviation of split frequencies)
+        should approach 0.0 as runs converge.
+
+
+      Summary statistics for branch and node parameters
+         (saved to file "seq_gen_DS1_for_mb.nex.vstat"):
+
+                                              95% HPD Interval
+                                            --------------------
+      Parameter      Mean       Variance     Lower       Upper       Median     PSRF+  Nruns
+      --------------------------------------------------------------------------------------
+      length[1]     0.001991    0.000002    0.000069    0.004730    0.001663    1.000    2
+      length[2]     0.008964    0.000009    0.003892    0.015109    0.008621    1.000    2
+      length[3]     0.017993    0.000018    0.010088    0.026393    0.017573    1.000    2
+      length[4]     0.001000    0.000001    0.000000    0.003118    0.000669    1.000    2
+      length[5]     0.010966    0.000011    0.005018    0.017555    0.010628    1.000    2
+      length[6]     0.010973    0.000011    0.004927    0.017497    0.010627    1.000    2
+      length[7]     0.008903    0.000009    0.003267    0.014234    0.008548    1.000    2
+      length[8]     0.005966    0.000006    0.001756    0.010865    0.005696    1.000    2
+      length[9]     0.009335    0.000010    0.003334    0.015435    0.008939    1.001    2
+      length[10]    0.011630    0.000012    0.005455    0.018373    0.011339    1.000    2
+      length[11]    0.008922    0.000009    0.003367    0.014613    0.008537    1.000    2
+      length[12]    0.009014    0.000009    0.003640    0.015077    0.008681    1.000    2
+      length[13]    0.008910    0.000009    0.003681    0.014902    0.008598    1.000    2
+      length[14]    0.003976    0.000004    0.000711    0.007920    0.003652    1.000    2
+      length[15]    0.005004    0.000005    0.001149    0.009294    0.004645    1.000    2
+      length[16]    0.023970    0.000025    0.014831    0.033836    0.023606    1.001    2
+      length[17]    0.019802    0.000021    0.011223    0.028948    0.019449    1.000    2
+      length[18]    0.003280    0.000004    0.000272    0.006814    0.002954    1.000    2
+      length[19]    0.022001    0.000023    0.012943    0.031321    0.021649    1.000    2
+      length[20]    0.005062    0.000005    0.001154    0.009469    0.004695    1.000    2
+      length[21]    0.008002    0.000008    0.002810    0.013408    0.007623    1.000    2
+      length[22]    0.018988    0.000019    0.010518    0.027120    0.018645    1.000    2
+      length[23]    0.021568    0.000021    0.013075    0.030808    0.021148    1.000    2
+      length[24]    0.005313    0.000006    0.001029    0.009965    0.004989    1.000    2
+      length[25]    0.006934    0.000007    0.002205    0.012244    0.006648    1.000    2
+      length[26]    0.018924    0.000019    0.011189    0.028171    0.018567    1.000    2
+      length[27]    0.027954    0.000029    0.018061    0.038687    0.027580    1.000    2
+      length[28]    0.009503    0.000010    0.003781    0.015723    0.009175    1.000    2
+      length[29]    0.005387    0.000006    0.001115    0.010371    0.005007    1.003    2
+      length[30]    0.007344    0.000009    0.002033    0.012951    0.006994    1.000    2
+      length[31]    0.008708    0.000009    0.003154    0.014580    0.008341    1.000    2
+      length[32]    0.016835    0.000017    0.009540    0.025410    0.016492    1.000    2
+      length[33]    0.011102    0.000012    0.004766    0.017682    0.010749    1.000    2
+      length[34]    0.024639    0.000026    0.015147    0.034296    0.024320    1.000    2
+      length[35]    0.010345    0.000010    0.004548    0.016498    0.010011    1.000    2
+      length[36]    0.006904    0.000008    0.002452    0.012630    0.006498    1.000    2
+      length[37]    0.004959    0.000005    0.001259    0.009387    0.004641    1.001    2
+      length[38]    0.006339    0.000007    0.001669    0.011552    0.005961    1.000    2
+      length[39]    0.007904    0.000008    0.002969    0.013374    0.007625    1.000    2
+      length[40]    0.008979    0.000009    0.003486    0.014835    0.008619    1.001    2
+      length[41]    0.024020    0.000026    0.014722    0.033638    0.023719    1.000    2
+      length[42]    0.004964    0.000005    0.001142    0.008980    0.004649    1.000    2
+      length[43]    0.004964    0.000005    0.001241    0.009287    0.004615    1.000    2
+      length[44]    0.007935    0.000008    0.003102    0.013679    0.007640    1.000    2
+      length[45]    0.007052    0.000007    0.002468    0.012591    0.006639    1.000    2
+      length[46]    0.013963    0.000014    0.006661    0.020989    0.013621    1.000    2
+      length[47]    0.002996    0.000003    0.000259    0.006324    0.002641    1.001    2
+      length[48]    0.004875    0.000005    0.001057    0.009469    0.004472    1.000    2
+      length[49]    0.003006    0.000003    0.000331    0.006648    0.002639    1.000    2
+      length[50]    0.004158    0.000005    0.000732    0.008557    0.003793    1.000    2
+      length[51]    0.001960    0.000002    0.000090    0.004679    0.001648    1.000    2
+      --------------------------------------------------------------------------------------
+      + Convergence diagnostic (PSRF = Potential Scale Reduction Factor; Gelman
+        and Rubin, 1992) should approach 1.0 as runs converge. NA is reported when
+        deviation of parameter values within all runs is 0 or when a parameter
+        value (a branch length, for instance) is not sampled in all runs.
+
+
+      Summary statistics for partitions with frequency >= 0.10 in at least one run:
+          Average standard deviation of split frequencies = 0.000079
+          Maximum standard deviation of split frequencies = 0.000942
+          Average PSRF for parameter values (excluding NA and >10.0) = 1.000
+          Maximum PSRF for parameter values = 1.003
+
+
+      Clade credibility values:
+
+      Subtree rooted at node 46:
+
+                                                           /----- Amphiuma_tridac~ (3)
+                                                     /-100-+                          
+                                                     |     \----- Grandisonia_alt~ (4)
+                                                /-100+                                
+                                                |    \----------- Hypogeophis_ros~ (5)
+                                           /-100+                                     
+                                           |    \---------------- Ichthyophis_ba~ (25)
+                                      /-100+                                          
+                                      |    |               /----- Scaphiopus_hol~ (13)
+                                      |    \------100------+                          
+                                /-100-+                    \----- Plethodon_yonh~ (14)
+                                |     |                                               
+                                |     \-------------------------- Discoglossus_p~ (15)
+                                |                                                     
+                           /-100+                          /----- Ambystoma_mexi~ (11)
+                           |    |                    /-100-+                          
+                           |    |                    |     \----- Siren_intermed~ (12)
+                           |    \---------95---------+                                
+                           |                         \----------- Typhlonectes_n~ (20)
+                      /-100+                                                          
+                      |    |                               /----- Hyla_cinerea (16)
+                      |    |                    /----100---+                          
+                      |    |                    |          \----- Bufo_valliceps (26)
+                      |    |                    |                                     
+                      |    \---------100--------+          /----- Eleutherodacty~ (17)
+                 /-100+                         |    /-100-+                          
+                 |    |                         |    |     \----- Nesomantis_tho~ (23)
+                 |    |                         \-100+                                
+                 |    |                              \----------- Gastrophryne_c~ (27)
+           /-100-+    |                                                               
+           |     |    \------------------------------------------ Xenopus_laevis (18)
+           |     |                                                                    
+           |     \----------------------------------------------- Latimeria_chal~ (19)
+           |                                                                          
+      --100+                                         /----------- Homo_sapiens (6)
+           |                                         |                                
+           |                                    /-100+     /----- Mus_musculus (7)
+           |                                    |    \-100-+                          
+           \-----------------100----------------+          \----- Rattus_norvegic~ (8)
+                                                |                                     
+                                                \---------------- Oryctolagus_cu~ (24)
+                                                                                      
+      Root part of tree:
+
+      /---------------------------------------------------------- Alligator_missi~ (1)
+      |                                                                               
+      |---------------------------------------------------------- Trachemys_scrip~ (2)
+      |                                                                               
+      |                            /----------------------------- (46)
+      +                            |                                                  
+      |              /-----100-----+              /-------------- Gallus_gallus (21)
+      |              |             \------100-----+                                   
+      |              |                            \-------------- Turdus_migrato~ (22)
+      \------100-----+                                                                
+                     |                            /-------------- Sceloporus_undu~ (9)
+                     \-------------100------------+                                   
+                                                  \-------------- Heterodon_plat~ (10)
+                                                                                      
+
+      Phylogram (based on average branch lengths):
+
+      /- Alligator_missi~ (1)
+      |                                                                               
+      |----- Trachemys_scrip~ (2)
+      |                                                                               
+      |                                               /---------- Amphiuma_tridac~ (3)
+      |                                             /-+                               
+      |                                             | \- Grandisonia_alt~ (4)
+      |                                         /---+                                 
+      |                                         |   \------ Hypogeophis_ros~ (5)
+      |                                      /--+                                     
+      |                                      |  \--- Ichthyophis_ba~ (25)
+      |                                  /---+                                        
+      |                                  |   |   /---- Scaphiopus_hol~ (13)
+      |                                  |   \---+                                    
+      |                                /-+       \-- Plethodon_yonh~ (14)
+      |                                | |                                            
+      |                                | \-- Discoglossus_p~ (15)
+      |                                |                                              
+      |                              /-+      /----- Ambystoma_mexi~ (11)
+      |                              | |/-----+                                       
+      |                              | ||     \----- Siren_intermed~ (12)
+      |                              | \+                                             
+      |                              |  \--- Typhlonectes_n~ (20)
+      |                         /----+                                                
+      +                         |    |  /------------- Hyla_cinerea (16)
+      |                         |    |/-+                                             
+      |                         |    || \----------- Bufo_valliceps (26)
+      |                         |    ||                                               
+      |                         |    \+       /----------- Eleutherodacty~ (17)
+      |                      /--+     |     /-+                                       
+      |                      |  |     |     | \------------ Nesomantis_tho~ (23)
+      |                      |  |     \-----+                                         
+      |                      |  |           \--------------- Gastrophryne_c~ (27)
+      |         /------------+  |                                                     
+      |         |            |  \-- Xenopus_laevis (18)
+      |         |            |                                                        
+      |         |            \------------ Latimeria_chal~ (19)
+      |         |                                                                     
+      |      /--+                    /----- Homo_sapiens (6)
+      |      |  |                    |                                                
+      |      |  |            /-------+   /----- Mus_musculus (7)
+      |      |  |            |       \---+                                            
+      |      |  \------------+           \--- Rattus_norvegic~ (8)
+      |  /---+               |                                                        
+      |  |   |               \--- Oryctolagus_cu~ (24)
+      |  |   |                                                                        
+      |  |   |    /---- Gallus_gallus (21)
+      \--+   \----+                                                                   
+         |        \---------- Turdus_migrato~ (22)
+         |                                                                            
+         |        /----- Sceloporus_undu~ (9)
+         \--------+                                                                   
+                  \------ Heterodon_plat~ (10)
+                                                                                      
+      |---------| 0.020 expected changes per site
+
+      Calculating tree probabilities...
+
+      Credible sets of trees (9 trees sampled):
+         95 % credible set contains 2 trees
+         99 % credible set contains 3 trees
+
+      Setting burn-in to 500
+      Summarizing parameters in files seq_gen_DS1_for_mb.nex.run1.p and seq_gen_DS1_for_mb.nex.run2.p
+      Writing summary statistics to file seq_gen_DS1_for_mb.nex.pstat
+      Using relative burnin ('relburnin=yes'), discarding the first 25 % of samples
+
+      Below are rough plots of the generation (x-axis) versus the log   
+      probability of observing the data (y-axis). You can use these     
+      graphs to determine what the burn in for your analysis should be. 
+      When the log probability starts to plateau you may be at station- 
+      arity. Sample trees and parameters after the log probability      
+      plateaus. Of course, this is not a guarantee that you are at sta- 
+      tionarity. Also examine the convergence diagnostics provided by   
+      the 'sump' and 'sumt' commands for all the parameters in your     
+      model. Remember that the burn in is the number of samples to dis- 
+      card. There are a total of ngen / samplefreq samples taken during 
+      a MCMC analysis.                                                  
+
+      Overlay plot for both runs:
+      (1 = Run number 1; 2 = Run number 2; * = Both runs)
+
+      +------------------------------------------------------------+ -4423.52
+      |                     12                1       2            |
+      |                    2                      1               2|
+      |                                              2  2    2     |
+      |2           1  1   1 2   12         2 2                  2  |
+      | 2 2 1   21   2       1                      2      2       |
+      |    1  1  2  21 1            2   2 2        2   1   12   1  |
+      |   1   22        1 2              *     2  2 1          1   |
+      |    2      1      1    12  21 1  1   *   11 1  1 1     2  2 |
+      |11   2   1       2             *    1             21   1    |
+      |      1 1  2             2 1    1  1   21 2   1   12  1    1|
+      |  2               2                                     2   |
+      |               2    1        12 2                           |
+      |      2     21  2      21   2                   2    1      |
+      |                          1           1                     |
+      |  1                                      2                1 |
+      +------+-----+-----+-----+-----+-----+-----+-----+-----+-----+ -4428.33
+      ^                                                            ^
+      500000                                                       2000000
+
+
+      Estimated marginal likelihoods for runs sampled in files
+         "seq_gen_DS1_for_mb.nex.run1.p" and "seq_gen_DS1_for_mb.nex.run2.p":
+         (Use the harmonic mean for Bayes factor comparisons of models)
+
+         (Values are saved to the file seq_gen_DS1_for_mb.nex.lstat)
+
+      Run   Arithmetic mean   Harmonic mean
+      --------------------------------------
+        1      -4417.51         -4437.22
+        2      -4418.56         -4438.26
+      --------------------------------------
+      TOTAL    -4417.90         -4437.87
+      --------------------------------------
+
+
+      Model parameter summaries over the runs sampled in files
+         "seq_gen_DS1_for_mb.nex.run1.p" and "seq_gen_DS1_for_mb.nex.run2.p":
+         Summaries are based on a total of 3002 samples from 2 runs.
+         Each run produced 2001 samples of which 1501 samples were included.
+         Parameter summaries saved to file "seq_gen_DS1_for_mb.nex.pstat".
+
+                                            95% HPD Interval
+                                          --------------------
+      Parameter      Mean      Variance     Lower       Upper       Median    min ESS*  avg ESS    PSRF+ 
+      --------------------------------------------------------------------------------------------------
+      TL          0.514128    0.000512    0.469894    0.557998    0.514388   1501.00   1501.00    1.000
+      --------------------------------------------------------------------------------------------------
+      * Convergence diagnostic (ESS = Estimated Sample Size); min and avg values
+        correspond to minimal and average ESS among runs. 
+        ESS value below 100 may indicate that the parameter is undersampled. 
+      + Convergence diagnostic (PSRF = Potential Scale Reduction Factor; Gelman
+        and Rubin, 1992) should approach 1.0 as runs converge.
+
+
+   Deleting previously defined characters
+   Deleting previously defined taxa
+   Quitting program
+
+
+   Tasks completed, exiting program because mode is noninteractive
+   To return control to the command line after completion of file processing, 
+   set mode to interactive with 'mb -i <filename>' (i is for interactive)
+   or use 'set mode=interactive'
+

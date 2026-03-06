@@ -1,0 +1,83 @@
+IQ-TREE version 3.0.1 for Linux x86 64-bit built Jul  9 2025
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    jl-baubab.scilifelab.se (AVX2, FMA3, 502 GB RAM)
+Command: iqtree -s TaxaADD/data/seq_gen_1000_DS1.fasta -z TaxaADD/data/ds1_best_mrbayes_cleaned_tree.nwk -m JC -n 0 -redo
+Seed:    736613 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Feb 17 15:16:24 2026
+Kernel:  AVX+FMA - 1 threads (256 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 256 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file TaxaADD/data/seq_gen_1000_DS1.fasta ... Fasta format detected
+Reading fasta file: done in 0.000472285 secs using 70.51% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00104044 secs using 89.67% CPU
+Alignment has 27 sequences with 1000 columns, 303 distinct patterns
+176 parsimony-informative, 195 singleton sites, 629 constant sites
+                            Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 2.42144e-05 secs using 94.98% CPU
+   1  Hypogeophis_rostratus         0.00%    passed     99.24%
+   2  Grandisonia_alternans         0.00%    passed     98.19%
+   3  Amphiuma_tridactylum          0.00%    passed     98.01%
+   4  Ichthyophis_bannanicus        0.00%    passed     91.81%
+   5  Plethodon_yonhalossee         0.00%    passed     99.93%
+   6  Scaphiopus_holbrooki          0.00%    passed     99.32%
+   7  Discoglossus_pictus           0.00%    passed     99.72%
+   8  Typhlonectes_natans           0.00%    passed     98.28%
+   9  Ambystoma_mexicanum           0.00%    passed     98.39%
+  10  Siren_intermedia              0.00%    passed     99.36%
+  11  Xenopus_laevis                0.00%    passed     99.80%
+  12  Latimeria_chalumnae           0.00%    passed     98.05%
+  13  Homo_sapiens                  0.00%    passed     90.33%
+  14  Rattus_norvegicus             0.00%    passed     90.33%
+  15  Mus_musculus                  0.00%    passed     98.29%
+  16  Oryctolagus_cuniculus         0.00%    passed     98.48%
+  17  Gallus_gallus                 0.00%    passed     98.02%
+  18  Turdus_migratorius            0.00%    passed     99.15%
+  19  Heterodon_platyrhinos         0.00%    passed     98.52%
+  20  Sceloporus_undulatus          0.00%    passed     97.19%
+  21  Alligator_mississippiensis    0.00%    passed     98.72%
+  22  Trachemys_scripta             0.00%    passed     97.42%
+  23  Nesomantis_thomasseti         0.00%    passed     94.34%
+  24  Eleutherodactylus_cuneatus    0.00%    passed     90.83%
+  25  Gastrophryne_carolinensis     0.00%    passed     96.94%
+  26  Bufo_valliceps                0.00%    passed     98.74%
+  27  Hyla_cinerea                  0.00%    passed     86.55%
+****  TOTAL                         0.00%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Checking for duplicate sequences: done in 8.14945e-05 secs using 98.17% CPU
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.001 seconds
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -4399.973
+Optimal log-likelihood: -4399.438
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Parameters optimization took 1 rounds (0.002 sec)
+Wrote distance file to... 
+BEST SCORE FOUND : -4399.438
+Total tree length: 0.468
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 0.012 sec (0h:0m:0s)
+Total wall-clock time used: 0.013 sec (0h:0m:0s)
+Reading trees in TaxaADD/data/ds1_best_mrbayes_cleaned_tree.nwk ...
+
+1 trees detected
+Tree 1 / LogL: -4399.440
+Time for evaluating all trees: 0.003 sec.
+
+Analysis results written to: 
+  IQ-TREE report:                TaxaADD/data/seq_gen_1000_DS1.fasta.iqtree
+  Maximum-likelihood tree:       TaxaADD/data/seq_gen_1000_DS1.fasta.treefile
+  Evaluated user trees:          TaxaADD/data/seq_gen_1000_DS1.fasta.trees
+  Screen log file:               TaxaADD/data/seq_gen_1000_DS1.fasta.log
+
+Date and Time: Tue Feb 17 15:16:24 2026

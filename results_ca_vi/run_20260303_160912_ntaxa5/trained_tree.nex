@@ -1,0 +1,23 @@
+#NEXUS
+
+BEGIN TAXA;
+	DIMENSIONS NTAX=5;
+	TAXLABELS
+		Taxon1
+		Taxon4
+		Taxon5
+		Taxon3
+		Taxon2
+	;
+END;
+
+BEGIN TREES;
+	TRANSLATE
+		1 Taxon1,
+		2 Taxon4,
+		3 Taxon5,
+		4 Taxon3,
+		5 Taxon2
+	;
+	TREE tree_1 = (2:0.163480,3:0.201526,(4:0.038892,(1:0.038803,5:0.163447):0.052780):0.103463);
+END;

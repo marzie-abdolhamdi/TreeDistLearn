@@ -1,0 +1,53 @@
+[I 2026-03-06 09:06:51.214 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2026-03-06 09:06:51.218 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2026-03-06 09:06:51.222 ServerApp] jupyterlab | extension was successfully linked.
+[I 2026-03-06 09:06:51.225 ServerApp] notebook | extension was successfully linked.
+[I 2026-03-06 09:06:51.396 ServerApp] notebook_shim | extension was successfully linked.
+[I 2026-03-06 09:06:51.409 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2026-03-06 09:06:51.411 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2026-03-06 09:06:51.412 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2026-03-06 09:06:51.414 LabApp] JupyterLab extension loaded from /home/marzie.abdolhamdi/miniconda3/envs/phylovae/lib/python3.10/site-packages/jupyterlab
+[I 2026-03-06 09:06:51.414 LabApp] JupyterLab application directory is /home/marzie.abdolhamdi/miniconda3/envs/phylovae/share/jupyter/lab
+[I 2026-03-06 09:06:51.414 LabApp] Extension Manager is 'pypi'.
+[I 2026-03-06 09:06:51.448 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2026-03-06 09:06:51.451 ServerApp] notebook | extension was successfully loaded.
+[I 2026-03-06 09:06:51.451 ServerApp] The port 9989 is already in use, trying another port.
+[I 2026-03-06 09:06:51.451 ServerApp] The port 9990 is already in use, trying another port.
+[I 2026-03-06 09:06:51.451 ServerApp] The port 9991 is already in use, trying another port.
+[I 2026-03-06 09:06:51.451 ServerApp] The port 9992 is already in use, trying another port.
+[I 2026-03-06 09:06:51.451 ServerApp] The port 9993 is already in use, trying another port.
+[I 2026-03-06 09:06:51.452 ServerApp] Serving notebooks from local directory: /home/marzie.abdolhamdi/TreeDistLearn
+[I 2026-03-06 09:06:51.452 ServerApp] Jupyter Server 2.15.0 is running at:
+[I 2026-03-06 09:06:51.452 ServerApp] http://jl-baubab.scilifelab.se:9923/lab?token=e8e99e82cb9324de3a41e128ae6e7ac284e789c4e96f87de
+[I 2026-03-06 09:06:51.452 ServerApp]     http://127.0.0.1:9923/lab?token=e8e99e82cb9324de3a41e128ae6e7ac284e789c4e96f87de
+[I 2026-03-06 09:06:51.452 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2026-03-06 09:06:51.455 ServerApp] No web browser found: Error('could not locate runnable browser').
+[C 2026-03-06 09:06:51.455 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/marzie.abdolhamdi/.local/share/jupyter/runtime/jpserver-2984750-open.html
+    Or copy and paste one of these URLs:
+        http://jl-baubab.scilifelab.se:9923/lab?token=e8e99e82cb9324de3a41e128ae6e7ac284e789c4e96f87de
+        http://127.0.0.1:9923/lab?token=e8e99e82cb9324de3a41e128ae6e7ac284e789c4e96f87de
+[I 2026-03-06 09:06:51.469 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[W 2026-03-06 09:07:00.809 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2026-03-06 09:07:07.920 ServerApp] Kernel started: 6924ee1f-52ff-42c1-a698-78ae0187858c
+[I 2026-03-06 09:07:07.920 ServerApp] Kernel started: eaec358c-9d6f-43c6-a0a9-533bf6dea0e2
+[I 2026-03-06 09:07:07.924 ServerApp] Kernel started: a3303338-31e7-41dd-8459-d56f326a2afb
+[I 2026-03-06 09:07:07.927 ServerApp] Kernel started: 0680893c-1b25-4cc3-92f6-bbdde18e3238
+[I 2026-03-06 09:07:07.932 ServerApp] Kernel started: 629b2b01-6f45-404c-8cc7-d8f5840fd935
+[I 2026-03-06 09:07:09.385 ServerApp] Connecting to kernel 629b2b01-6f45-404c-8cc7-d8f5840fd935.
+[I 2026-03-06 09:07:09.409 ServerApp] Starting buffering for 629b2b01-6f45-404c-8cc7-d8f5840fd935:651bf311-2f0c-4e2f-bf95-d0ef8170399c
+[I 2026-03-06 09:07:09.430 ServerApp] Connecting to kernel 6924ee1f-52ff-42c1-a698-78ae0187858c.
+[I 2026-03-06 09:07:09.480 ServerApp] Connecting to kernel eaec358c-9d6f-43c6-a0a9-533bf6dea0e2.
+[I 2026-03-06 09:07:09.514 ServerApp] Connecting to kernel 0680893c-1b25-4cc3-92f6-bbdde18e3238.
+[I 2026-03-06 09:07:09.552 ServerApp] Connecting to kernel a3303338-31e7-41dd-8459-d56f326a2afb.
+[I 2026-03-06 09:07:09.586 ServerApp] Connecting to kernel 629b2b01-6f45-404c-8cc7-d8f5840fd935.
+[I 2026-03-06 09:07:09.618 ServerApp] Connecting to kernel 629b2b01-6f45-404c-8cc7-d8f5840fd935.
+[I 2026-03-06 09:09:06.034 ServerApp] Saving file at /Untitled.ipynb
+[I 2026-03-06 09:11:20.860 ServerApp] Saving file at /compare_tree_posteriors_kl.py
+[I 2026-03-06 09:59:06.040 ServerApp] Saving file at /Untitled3.ipynb
+[I 2026-03-06 09:59:06.137 ServerApp] Saving file at /nexus_to_nwk.py
+[I 2026-03-06 09:59:12.376 ServerApp] Saving file at /nexus_to_nwk.py
+[I 2026-03-06 10:01:06.137 ServerApp] Saving file at /Untitled3.ipynb
+[I 2026-03-06 10:03:06.258 ServerApp] Saving file at /Untitled3.ipynb

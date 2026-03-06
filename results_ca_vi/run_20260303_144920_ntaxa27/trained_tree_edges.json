@@ -1,0 +1,359 @@
+[
+  {
+    "u_id": 0,
+    "v_id": 49,
+    "u_label": "Amphiuma_tridactylum",
+    "v_label": "i49",
+    "length": 0.003339521339698201
+  },
+  {
+    "u_id": 1,
+    "v_id": 47,
+    "u_label": "Rattus_norvegicus",
+    "v_label": "i47",
+    "length": 0.013346500658813305
+  },
+  {
+    "u_id": 2,
+    "v_id": 35,
+    "u_label": "Nesomantis_thomasseti",
+    "v_label": "i35",
+    "length": 0.013937975786356586
+  },
+  {
+    "u_id": 3,
+    "v_id": 43,
+    "u_label": "Turdus_migratorius",
+    "v_label": "i43",
+    "length": 0.02136031007587065
+  },
+  {
+    "u_id": 4,
+    "v_id": 29,
+    "u_label": "Latimeria_chalumnae",
+    "v_label": "i29",
+    "length": 0.1981198969056043
+  },
+  {
+    "u_id": 5,
+    "v_id": 48,
+    "u_label": "Ambystoma_mexicanum",
+    "v_label": "i48",
+    "length": 0.05515503029593459
+  },
+  {
+    "u_id": 6,
+    "v_id": 46,
+    "u_label": "Heterodon_platyrhinos",
+    "v_label": "i46",
+    "length": 0.00515974924457326
+  },
+  {
+    "u_id": 7,
+    "v_id": 37,
+    "u_label": "Bufo_valliceps",
+    "v_label": "i37",
+    "length": 0.031799274208550644
+  },
+  {
+    "u_id": 8,
+    "v_id": 33,
+    "u_label": "Gastrophryne_carolinensis",
+    "v_label": "i33",
+    "length": 0.1417014042888172
+  },
+  {
+    "u_id": 9,
+    "v_id": 34,
+    "u_label": "Ichthyophis_bannanicus",
+    "v_label": "i34",
+    "length": 0.01917090831897232
+  },
+  {
+    "u_id": 10,
+    "v_id": 35,
+    "u_label": "Eleutherodactylus_cuneatus",
+    "v_label": "i35",
+    "length": 0.04559332651917971
+  },
+  {
+    "u_id": 11,
+    "v_id": 36,
+    "u_label": "Xenopus_laevis",
+    "v_label": "i36",
+    "length": 0.10447482785118718
+  },
+  {
+    "u_id": 12,
+    "v_id": 37,
+    "u_label": "Hyla_cinerea",
+    "v_label": "i37",
+    "length": 0.12232232636658555
+  },
+  {
+    "u_id": 13,
+    "v_id": 51,
+    "u_label": "Scaphiopus_holbrooki",
+    "v_label": "i51",
+    "length": 0.023062313668011074
+  },
+  {
+    "u_id": 14,
+    "v_id": 50,
+    "u_label": "Trachemys_scripta",
+    "v_label": "i50",
+    "length": 0.0046523013433516554
+  },
+  {
+    "u_id": 15,
+    "v_id": 40,
+    "u_label": "Oryctolagus_cuniculus",
+    "v_label": "i40",
+    "length": 0.22514124738212016
+  },
+  {
+    "u_id": 16,
+    "v_id": 41,
+    "u_label": "Hypogeophis_rostratus",
+    "v_label": "i41",
+    "length": 0.28304846457323185
+  },
+  {
+    "u_id": 17,
+    "v_id": 42,
+    "u_label": "Discoglossus_pictus",
+    "v_label": "i42",
+    "length": 0.0557392658796663
+  },
+  {
+    "u_id": 18,
+    "v_id": 43,
+    "u_label": "Gallus_gallus",
+    "v_label": "i43",
+    "length": 0.03890547005487232
+  },
+  {
+    "u_id": 19,
+    "v_id": 44,
+    "u_label": "Typhlonectes_natans",
+    "v_label": "i44",
+    "length": 0.058995889696809085
+  },
+  {
+    "u_id": 20,
+    "v_id": 45,
+    "u_label": "Homo_sapiens",
+    "v_label": "i45",
+    "length": 0.043429418723505996
+  },
+  {
+    "u_id": 21,
+    "v_id": 46,
+    "u_label": "Sceloporus_undulatus",
+    "v_label": "i46",
+    "length": 0.03945373663597231
+  },
+  {
+    "u_id": 22,
+    "v_id": 47,
+    "u_label": "Mus_musculus",
+    "v_label": "i47",
+    "length": 0.007371064082335496
+  },
+  {
+    "u_id": 23,
+    "v_id": 48,
+    "u_label": "Siren_intermedia",
+    "v_label": "i48",
+    "length": 0.02814807609207484
+  },
+  {
+    "u_id": 24,
+    "v_id": 49,
+    "u_label": "Grandisonia_alternans",
+    "v_label": "i49",
+    "length": 0.09149219265183166
+  },
+  {
+    "u_id": 25,
+    "v_id": 50,
+    "u_label": "Alligator_mississippiensis",
+    "v_label": "i50",
+    "length": 0.1126019902106133
+  },
+  {
+    "u_id": 26,
+    "v_id": 51,
+    "u_label": "Plethodon_yonhalossee",
+    "v_label": "i51",
+    "length": 0.06142432527740441
+  },
+  {
+    "u_id": 27,
+    "v_id": 32,
+    "u_label": "i27",
+    "v_label": "i32",
+    "length": 0.001472500665242126
+  },
+  {
+    "u_id": 27,
+    "v_id": 33,
+    "u_label": "i27",
+    "v_label": "i33",
+    "length": 0.008369932296343007
+  },
+  {
+    "u_id": 27,
+    "v_id": 38,
+    "u_label": "i27",
+    "v_label": "i38",
+    "length": 0.008932567593924278
+  },
+  {
+    "u_id": 28,
+    "v_id": 29,
+    "u_label": "i28",
+    "v_label": "i29",
+    "length": 0.007818096418818664
+  },
+  {
+    "u_id": 28,
+    "v_id": 39,
+    "u_label": "i28",
+    "v_label": "i39",
+    "length": 0.047071782455959756
+  },
+  {
+    "u_id": 28,
+    "v_id": 40,
+    "u_label": "i28",
+    "v_label": "i40",
+    "length": 0.02570211924848706
+  },
+  {
+    "u_id": 29,
+    "v_id": 36,
+    "u_label": "i29",
+    "v_label": "i36",
+    "length": 0.01128050992895699
+  },
+  {
+    "u_id": 30,
+    "v_id": 36,
+    "u_label": "i30",
+    "v_label": "i36",
+    "length": 0.0012367087061616164
+  },
+  {
+    "u_id": 30,
+    "v_id": 44,
+    "u_label": "i30",
+    "v_label": "i44",
+    "length": 0.0022097106670428373
+  },
+  {
+    "u_id": 30,
+    "v_id": 48,
+    "u_label": "i30",
+    "v_label": "i48",
+    "length": 0.10972010667920028
+  },
+  {
+    "u_id": 31,
+    "v_id": 39,
+    "u_label": "i31",
+    "v_label": "i39",
+    "length": 0.0628422478392844
+  },
+  {
+    "u_id": 31,
+    "v_id": 43,
+    "u_label": "i31",
+    "v_label": "i43",
+    "length": 0.011108338169930029
+  },
+  {
+    "u_id": 31,
+    "v_id": 46,
+    "u_label": "i31",
+    "v_label": "i46",
+    "length": 0.008276479256084636
+  },
+  {
+    "u_id": 32,
+    "v_id": 42,
+    "u_label": "i32",
+    "v_label": "i42",
+    "length": 0.001617090987035115
+  },
+  {
+    "u_id": 32,
+    "v_id": 44,
+    "u_label": "i32",
+    "v_label": "i44",
+    "length": 0.0016220146575524807
+  },
+  {
+    "u_id": 33,
+    "v_id": 35,
+    "u_label": "i33",
+    "v_label": "i35",
+    "length": 0.011327902728088805
+  },
+  {
+    "u_id": 34,
+    "v_id": 41,
+    "u_label": "i34",
+    "v_label": "i41",
+    "length": 0.004168274594125121
+  },
+  {
+    "u_id": 34,
+    "v_id": 49,
+    "u_label": "i34",
+    "v_label": "i49",
+    "length": 0.02390536087670642
+  },
+  {
+    "u_id": 37,
+    "v_id": 42,
+    "u_label": "i37",
+    "v_label": "i42",
+    "length": 0.00989314727139516
+  },
+  {
+    "u_id": 38,
+    "v_id": 41,
+    "u_label": "i38",
+    "v_label": "i41",
+    "length": 0.003928562650301619
+  },
+  {
+    "u_id": 38,
+    "v_id": 51,
+    "u_label": "i38",
+    "v_label": "i51",
+    "length": 0.0771735131949921
+  },
+  {
+    "u_id": 39,
+    "v_id": 50,
+    "u_label": "i39",
+    "v_label": "i50",
+    "length": 0.009625472741589675
+  },
+  {
+    "u_id": 40,
+    "v_id": 45,
+    "u_label": "i40",
+    "v_label": "i45",
+    "length": 0.00626309093138407
+  },
+  {
+    "u_id": 45,
+    "v_id": 47,
+    "u_label": "i45",
+    "v_label": "i47",
+    "length": 0.015539501421368456
+  }
+]

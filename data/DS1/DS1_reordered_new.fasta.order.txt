@@ -1,0 +1,56 @@
+n_taxa=27
+order_by_new_position:
+0	old_idx=8	name=Grandisonia_alternans
+1	old_idx=12	name=Hypogeophis_rostratus
+2	old_idx=17	name=Oryctolagus_cuniculus
+3	old_idx=10	name=Homo_sapiens
+4	old_idx=2	name=Amphiuma_tridactylum
+5	old_idx=26	name=Xenopus_laevis
+6	old_idx=14	name=Latimeria_chalumnae
+7	old_idx=22	name=Siren_intermedia
+8	old_idx=13	name=Ichthyophis_bannanicus
+9	old_idx=15	name=Mus_musculus
+10	old_idx=18	name=Plethodon_yonhalossee
+11	old_idx=20	name=Scaphiopus_holbrooki
+12	old_idx=5	name=Eleutherodactylus_cuneatus
+13	old_idx=21	name=Sceloporus_undulatus
+14	old_idx=9	name=Heterodon_platyrhinos
+15	old_idx=0	name=Alligator_mississippiensis
+16	old_idx=23	name=Trachemys_scripta
+17	old_idx=1	name=Ambystoma_mexicanum
+18	old_idx=16	name=Nesomantis_thomasseti
+19	old_idx=25	name=Typhlonectes_natans
+20	old_idx=19	name=Rattus_norvegicus
+21	old_idx=6	name=Gallus_gallus
+22	old_idx=24	name=Turdus_migratorius
+23	old_idx=3	name=Bufo_valliceps
+24	old_idx=11	name=Hyla_cinerea
+25	old_idx=4	name=Discoglossus_pictus
+26	old_idx=7	name=Gastrophryne_carolinensis
+
+selection_log:
+init_triplet=[8, 12, 17]
+pick=10 gap=0.047904 d1=0.012959 d2=0.060863 current_size=3
+pick=2 gap=0.009150 d1=0.013867 d2=0.023018 current_size=4
+pick=26 gap=0.008617 d1=0.024062 d2=0.032680 current_size=5
+pick=14 gap=0.014107 d1=0.032603 d2=0.046709 current_size=6
+pick=22 gap=0.007601 d1=0.015873 d2=0.023474 current_size=7
+pick=13 gap=0.007304 d1=0.010133 d2=0.017437 current_size=8
+pick=15 gap=0.007097 d1=0.009110 d2=0.016207 current_size=9
+pick=18 gap=0.005495 d1=0.011085 d2=0.016579 current_size=10
+pick=20 gap=0.005406 d1=0.007143 d2=0.012549 current_size=11
+pick=5 gap=0.004236 d1=0.018385 d2=0.022621 current_size=12
+pick=21 gap=0.004105 d1=0.035960 d2=0.040065 current_size=13
+pick=9 gap=0.025227 d1=0.014717 d2=0.039944 current_size=14
+pick=0 gap=0.003635 d1=0.012593 d2=0.016227 current_size=15
+pick=23 gap=0.009196 d1=0.006383 d2=0.015579 current_size=16
+pick=1 gap=0.002843 d1=0.009556 d2=0.012400 current_size=17
+pick=16 gap=0.002592 d1=0.014241 d2=0.016832 current_size=18
+pick=25 gap=0.001943 d1=0.009585 d2=0.011527 current_size=19
+pick=19 gap=0.001615 d1=0.011790 d2=0.013405 current_size=20
+pick=6 gap=0.001248 d1=0.024311 d2=0.025559 current_size=21
+pick=24 gap=0.018199 d1=0.016653 d2=0.034853 current_size=22
+pick=3 gap=0.000677 d1=0.019216 d2=0.019893 current_size=23
+pick=11 gap=0.000674 d1=0.020741 d2=0.021415 current_size=24
+pick=4 gap=0.000630 d1=0.014395 d2=0.015025 current_size=25
+pick=7 gap=0.000414 d1=0.023520 d2=0.023934 current_size=26

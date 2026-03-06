@@ -1,0 +1,15 @@
+IQ-TREE version 3.0.1 for Linux x86 64-bit built Jul  9 2025
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    jl-baubab.scilifelab.se (AVX2, FMA3, 502 GB RAM)
+Command: iqtree -s TaxaADD/data/seq_gen_
+Seed:    85351 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Feb 10 11:32:07 2026
+Kernel:  AVX+FMA - 1 threads (256 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 256 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file TaxaADD/data/seq_gen_ ... ERROR: File not found TaxaADD/data/seq_gen_

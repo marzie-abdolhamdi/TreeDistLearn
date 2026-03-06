@@ -1,0 +1,359 @@
+[
+  {
+    "u_id": 0,
+    "v_id": 42,
+    "u_label": "Amphiuma_tridactylum",
+    "v_label": "i42",
+    "length": 0.010591695882885587
+  },
+  {
+    "u_id": 1,
+    "v_id": 47,
+    "u_label": "Rattus_norvegicus",
+    "v_label": "i47",
+    "length": 0.004099962035548642
+  },
+  {
+    "u_id": 2,
+    "v_id": 33,
+    "u_label": "Nesomantis_thomasseti",
+    "v_label": "i33",
+    "length": 0.006680373241460462
+  },
+  {
+    "u_id": 3,
+    "v_id": 43,
+    "u_label": "Turdus_migratorius",
+    "v_label": "i43",
+    "length": 0.015374509181681484
+  },
+  {
+    "u_id": 4,
+    "v_id": 29,
+    "u_label": "Latimeria_chalumnae",
+    "v_label": "i29",
+    "length": 0.019391708076000214
+  },
+  {
+    "u_id": 5,
+    "v_id": 48,
+    "u_label": "Ambystoma_mexicanum",
+    "v_label": "i48",
+    "length": 0.0023688852044168596
+  },
+  {
+    "u_id": 6,
+    "v_id": 46,
+    "u_label": "Heterodon_platyrhinos",
+    "v_label": "i46",
+    "length": 0.005740433417431112
+  },
+  {
+    "u_id": 7,
+    "v_id": 35,
+    "u_label": "Bufo_valliceps",
+    "v_label": "i35",
+    "length": 0.012073615215742572
+  },
+  {
+    "u_id": 8,
+    "v_id": 37,
+    "u_label": "Gastrophryne_carolinensis",
+    "v_label": "i37",
+    "length": 0.01695371543477997
+  },
+  {
+    "u_id": 9,
+    "v_id": 34,
+    "u_label": "Ichthyophis_bannanicus",
+    "v_label": "i34",
+    "length": 0.01440445613116026
+  },
+  {
+    "u_id": 10,
+    "v_id": 35,
+    "u_label": "Eleutherodactylus_cuneatus",
+    "v_label": "i35",
+    "length": 0.025462113320827484
+  },
+  {
+    "u_id": 11,
+    "v_id": 36,
+    "u_label": "Xenopus_laevis",
+    "v_label": "i36",
+    "length": 0.012526527978479862
+  },
+  {
+    "u_id": 12,
+    "v_id": 37,
+    "u_label": "Hyla_cinerea",
+    "v_label": "i37",
+    "length": 0.0022477414458990097
+  },
+  {
+    "u_id": 13,
+    "v_id": 51,
+    "u_label": "Scaphiopus_holbrooki",
+    "v_label": "i51",
+    "length": 0.0030872750146994365
+  },
+  {
+    "u_id": 14,
+    "v_id": 50,
+    "u_label": "Trachemys_scripta",
+    "v_label": "i50",
+    "length": 0.0053620727392746925
+  },
+  {
+    "u_id": 15,
+    "v_id": 40,
+    "u_label": "Oryctolagus_cuniculus",
+    "v_label": "i40",
+    "length": 0.007978977635502815
+  },
+  {
+    "u_id": 16,
+    "v_id": 49,
+    "u_label": "Hypogeophis_rostratus",
+    "v_label": "i49",
+    "length": 0.003545894449647119
+  },
+  {
+    "u_id": 17,
+    "v_id": 42,
+    "u_label": "Discoglossus_pictus",
+    "v_label": "i42",
+    "length": 0.009414628148078918
+  },
+  {
+    "u_id": 18,
+    "v_id": 43,
+    "u_label": "Gallus_gallus",
+    "v_label": "i43",
+    "length": 0.005382551811635494
+  },
+  {
+    "u_id": 19,
+    "v_id": 44,
+    "u_label": "Typhlonectes_natans",
+    "v_label": "i44",
+    "length": 0.007436267100274563
+  },
+  {
+    "u_id": 20,
+    "v_id": 45,
+    "u_label": "Homo_sapiens",
+    "v_label": "i45",
+    "length": 0.0022183365654200315
+  },
+  {
+    "u_id": 21,
+    "v_id": 46,
+    "u_label": "Sceloporus_undulatus",
+    "v_label": "i46",
+    "length": 0.0062475563026964664
+  },
+  {
+    "u_id": 22,
+    "v_id": 47,
+    "u_label": "Mus_musculus",
+    "v_label": "i47",
+    "length": 0.004620783030986786
+  },
+  {
+    "u_id": 23,
+    "v_id": 48,
+    "u_label": "Siren_intermedia",
+    "v_label": "i48",
+    "length": 0.00458953995257616
+  },
+  {
+    "u_id": 24,
+    "v_id": 49,
+    "u_label": "Grandisonia_alternans",
+    "v_label": "i49",
+    "length": 0.0014781620120629668
+  },
+  {
+    "u_id": 25,
+    "v_id": 50,
+    "u_label": "Alligator_mississippiensis",
+    "v_label": "i50",
+    "length": 0.003471849486231804
+  },
+  {
+    "u_id": 26,
+    "v_id": 51,
+    "u_label": "Plethodon_yonhalossee",
+    "v_label": "i51",
+    "length": 0.00610603392124176
+  },
+  {
+    "u_id": 27,
+    "v_id": 41,
+    "u_label": "i27",
+    "v_label": "i41",
+    "length": 0.0019934858289517264
+  },
+  {
+    "u_id": 27,
+    "v_id": 42,
+    "u_label": "i27",
+    "v_label": "i42",
+    "length": 0.005214226200713117
+  },
+  {
+    "u_id": 27,
+    "v_id": 44,
+    "u_label": "i27",
+    "v_label": "i44",
+    "length": 0.001884310136294821
+  },
+  {
+    "u_id": 28,
+    "v_id": 31,
+    "u_label": "i28",
+    "v_label": "i31",
+    "length": 0.006686758102525934
+  },
+  {
+    "u_id": 28,
+    "v_id": 40,
+    "u_label": "i28",
+    "v_label": "i40",
+    "length": 0.013663513893187432
+  },
+  {
+    "u_id": 28,
+    "v_id": 43,
+    "u_label": "i28",
+    "v_label": "i43",
+    "length": 0.011563716892298848
+  },
+  {
+    "u_id": 29,
+    "v_id": 31,
+    "u_label": "i29",
+    "v_label": "i31",
+    "length": 0.010141415113418801
+  },
+  {
+    "u_id": 29,
+    "v_id": 36,
+    "u_label": "i29",
+    "v_label": "i36",
+    "length": 0.004414417424740002
+  },
+  {
+    "u_id": 30,
+    "v_id": 36,
+    "u_label": "i30",
+    "v_label": "i36",
+    "length": 0.007806949222445422
+  },
+  {
+    "u_id": 30,
+    "v_id": 44,
+    "u_label": "i30",
+    "v_label": "i44",
+    "length": 0.002171659963371846
+  },
+  {
+    "u_id": 30,
+    "v_id": 48,
+    "u_label": "i30",
+    "v_label": "i48",
+    "length": 0.003450522087293517
+  },
+  {
+    "u_id": 31,
+    "v_id": 39,
+    "u_label": "i31",
+    "v_label": "i39",
+    "length": 0.0055479459266893905
+  },
+  {
+    "u_id": 32,
+    "v_id": 33,
+    "u_label": "i32",
+    "v_label": "i33",
+    "length": 0.0021797167264173884
+  },
+  {
+    "u_id": 32,
+    "v_id": 35,
+    "u_label": "i32",
+    "v_label": "i35",
+    "length": 0.005922839395678059
+  },
+  {
+    "u_id": 32,
+    "v_id": 38,
+    "u_label": "i32",
+    "v_label": "i38",
+    "length": 0.0007493568076230029
+  },
+  {
+    "u_id": 33,
+    "v_id": 37,
+    "u_label": "i33",
+    "v_label": "i37",
+    "length": 0.010372479134688528
+  },
+  {
+    "u_id": 34,
+    "v_id": 38,
+    "u_label": "i34",
+    "v_label": "i38",
+    "length": 0.0007807288599877754
+  },
+  {
+    "u_id": 34,
+    "v_id": 41,
+    "u_label": "i34",
+    "v_label": "i41",
+    "length": 0.001596998097435579
+  },
+  {
+    "u_id": 38,
+    "v_id": 51,
+    "u_label": "i38",
+    "v_label": "i51",
+    "length": 0.004364201980202459
+  },
+  {
+    "u_id": 39,
+    "v_id": 46,
+    "u_label": "i39",
+    "v_label": "i46",
+    "length": 0.0025990782054514886
+  },
+  {
+    "u_id": 39,
+    "v_id": 50,
+    "u_label": "i39",
+    "v_label": "i50",
+    "length": 0.0031570664015696526
+  },
+  {
+    "u_id": 40,
+    "v_id": 45,
+    "u_label": "i40",
+    "v_label": "i45",
+    "length": 0.004394952720883932
+  },
+  {
+    "u_id": 41,
+    "v_id": 49,
+    "u_label": "i41",
+    "v_label": "i49",
+    "length": 0.011959099980000804
+  },
+  {
+    "u_id": 45,
+    "v_id": 47,
+    "u_label": "i45",
+    "v_label": "i47",
+    "length": 0.0016743387944667346
+  }
+]

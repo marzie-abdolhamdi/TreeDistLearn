@@ -1,0 +1,61 @@
+IQ-TREE version 3.0.1 for Linux x86 64-bit built Jul  9 2025
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    jl-baubab.scilifelab.se (AVX2, FMA3, 502 GB RAM)
+Command: iqtree -s TaxaADD/data/seq_gen_1000_toy_data_5_reordered.fasta -z TaxaADD/data/nj_seq_gen_1000_toy_data_5.nwk -m JC -n 0 -redo
+Seed:    182443 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Feb 15 15:35:12 2026
+Kernel:  AVX+FMA - 1 threads (256 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 256 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file TaxaADD/data/seq_gen_1000_toy_data_5_reordered.fasta ... Fasta format detected
+Reading fasta file: done in 0.000118218 secs using 16.92% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.000875145 secs using 51.88% CPU
+Alignment has 5 sequences with 1000 columns, 205 distinct patterns
+128 parsimony-informative, 414 singleton sites, 458 constant sites
+        Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 9.14931e-06 secs using 98.37% CPU
+   1  Taxon1    0.00%    passed     77.52%
+   2  Taxon2    0.00%    passed     70.34%
+   3  Taxon5    0.00%    passed     95.51%
+   4  Taxon4    0.00%    passed     94.10%
+   5  Taxon3    0.00%    passed     95.24%
+****  TOTAL     0.00%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Checking for duplicate sequences: done in 1.90064e-05 secs using 94.7% CPU
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.000 seconds
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -4292.176
+Optimal log-likelihood: -4287.458
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Parameters optimization took 1 rounds (0.000 sec)
+Wrote distance file to... 
+BEST SCORE FOUND : -4287.458
+Total tree length: 0.809
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 0.010 sec (0h:0m:0s)
+Total wall-clock time used: 0.010 sec (0h:0m:0s)
+Reading trees in TaxaADD/data/nj_seq_gen_1000_toy_data_5.nwk ...
+
+1 trees detected
+Tree 1 / LogL: -4287.458
+Time for evaluating all trees: 0.000 sec.
+
+Analysis results written to: 
+  IQ-TREE report:                TaxaADD/data/seq_gen_1000_toy_data_5_reordered.fasta.iqtree
+  Maximum-likelihood tree:       TaxaADD/data/seq_gen_1000_toy_data_5_reordered.fasta.treefile
+  Evaluated user trees:          TaxaADD/data/seq_gen_1000_toy_data_5_reordered.fasta.trees
+  Screen log file:               TaxaADD/data/seq_gen_1000_toy_data_5_reordered.fasta.log
+
+Date and Time: Sun Feb 15 15:35:12 2026

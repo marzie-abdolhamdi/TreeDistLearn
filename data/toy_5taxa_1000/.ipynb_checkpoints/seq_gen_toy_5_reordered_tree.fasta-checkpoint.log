@@ -1,0 +1,61 @@
+IQ-TREE version 3.0.1 for Linux x86 64-bit built Jul  9 2025
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    jl-baubab.scilifelab.se (AVX2, FMA3, 502 GB RAM)
+Command: iqtree -s TreeDistLearn/data/toy_5taxa_1000/seq_gen_toy_5_reordered_tree.fasta -z TreeDistLearn/results_ca_vi/run_20260225_112708_ntaxa5/trained_tree.nwk -m JC -n 0 -redo
+Seed:    979397 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Feb 26 09:42:51 2026
+Kernel:  AVX+FMA - 1 threads (256 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 256 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file TreeDistLearn/data/toy_5taxa_1000/seq_gen_toy_5_reordered_tree.fasta ... Fasta format detected
+Reading fasta file: done in 9.837e-05 secs using 32.53% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.000756897 secs using 29.33% CPU
+Alignment has 5 sequences with 1000 columns, 205 distinct patterns
+128 parsimony-informative, 414 singleton sites, 458 constant sites
+        Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 7.48783e-06 secs
+   1  Taxon1    0.00%    passed     77.52%
+   2  Taxon4    0.00%    passed     94.10%
+   3  Taxon5    0.00%    passed     95.51%
+   4  Taxon3    0.00%    passed     95.24%
+   5  Taxon2    0.00%    passed     70.34%
+****  TOTAL     0.00%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Checking for duplicate sequences: done in 1.65403e-05 secs
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.000 seconds
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -4292.176
+Optimal log-likelihood: -4287.458
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Parameters optimization took 1 rounds (0.000 sec)
+Wrote distance file to... 
+BEST SCORE FOUND : -4287.458
+Total tree length: 0.809
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 0.007 sec (0h:0m:0s)
+Total wall-clock time used: 0.008 sec (0h:0m:0s)
+Reading trees in TreeDistLearn/results_ca_vi/run_20260225_112708_ntaxa5/trained_tree.nwk ...
+
+1 trees detected
+Tree 1 / LogL: -4287.458
+Time for evaluating all trees: 0.000 sec.
+
+Analysis results written to: 
+  IQ-TREE report:                TreeDistLearn/data/toy_5taxa_1000/seq_gen_toy_5_reordered_tree.fasta.iqtree
+  Maximum-likelihood tree:       TreeDistLearn/data/toy_5taxa_1000/seq_gen_toy_5_reordered_tree.fasta.treefile
+  Evaluated user trees:          TreeDistLearn/data/toy_5taxa_1000/seq_gen_toy_5_reordered_tree.fasta.trees
+  Screen log file:               TreeDistLearn/data/toy_5taxa_1000/seq_gen_toy_5_reordered_tree.fasta.log
+
+Date and Time: Thu Feb 26 09:42:51 2026

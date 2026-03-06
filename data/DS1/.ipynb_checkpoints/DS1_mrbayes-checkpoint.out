@@ -1,0 +1,79 @@
+nohup: ignoring input
+
+
+                            MrBayes 3.2.7 x86_64
+
+                      (Bayesian Analysis of Phylogeny)
+
+              Distributed under the GNU General Public License
+
+
+               Type "help" or "help <command>" for information
+                     on the commands that are available.
+
+                   Type "about" for authorship and general
+                       information about the program.
+
+
+
+   Executing file "data/DS1.nex"
+   UNIX line termination
+   Longest line length = 98
+   Parsing file
+   Expecting NEXUS formatted file
+   Reading data block
+      Allocated taxon set
+      Allocated matrix
+      Defining new matrix with 27 taxa and 1949 characters
+      Data is Dna
+      Missing data coded as ?
+      Gaps coded as -
+      WARNING: MrBayes does not support 'symbols' specification; default symbols assumed
+      Taxon  1 -> Hyla_cinerea
+      Taxon  2 -> Bufo_valliceps
+      Taxon  3 -> Amphiuma_tridactylum
+      Taxon  4 -> Ambystoma_mexicanum
+      Taxon  5 -> Siren_intermedia
+      Taxon  6 -> Typhlonectes_natans
+      Taxon  7 -> Turdus_migratorius
+      Taxon  8 -> Heterodon_platyrhinos
+      Taxon  9 -> Trachemys_scripta
+      Taxon 10 -> Alligator_mississippiensis
+      Taxon 11 -> Discoglossus_pictus
+      Taxon 12 -> Nesomantis_thomasseti
+      Taxon 13 -> Ichthyophis_bannanicus
+      Taxon 14 -> Hypogeophis_rostratus
+      Taxon 15 -> Grandisonia_alternans
+      Taxon 16 -> Plethodon_yonhalossee
+      Taxon 17 -> Mus_musculus
+      Taxon 18 -> Homo_sapiens
+      Taxon 19 -> Eleutherodactylus_cuneatus
+      Taxon 20 -> Scaphiopus_holbrooki
+      Taxon 21 -> Oryctolagus_cuniculus
+      Taxon 22 -> Xenopus_laevis
+      Taxon 23 -> Sceloporus_undulatus
+      Taxon 24 -> Gallus_gallus
+      Taxon 25 -> Gastrophryne_carolinensis
+      Taxon 26 -> Latimeria_chalumnae
+      Taxon 27 -> Rattus_norvegicus
+      Successfully read matrix
+      Setting default partition (does not divide up characters)
+      Setting model defaults
+      Seed (for generating default start values) = 1767877277
+      Setting output file names to "data/DS1.nex.run<i>.<p|t>"
+   Exiting data block
+   Reading mrbayes block
+      Setting autoclose to yes
+      Setting nowarnings to yes
+      Reached end of file
+      ERROR: Reached end of file while in comment.
+      The error occurred when reading char. 6-5 on line 811
+         in the file 'data/DS1.nex'
+
+   Returning execution to command line ...
+
+   Error in command "Execute"
+   Will exit with signal 1 (error) because quitonerror is set to yes
+   If you want control to be returned to the command line on error,
+   use 'mb -i <filename>' (i is for interactive) or use 'set quitonerror=no'
+

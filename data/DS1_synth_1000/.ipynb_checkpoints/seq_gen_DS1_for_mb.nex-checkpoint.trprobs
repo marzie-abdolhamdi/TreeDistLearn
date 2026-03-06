@@ -1,0 +1,46 @@
+#NEXUS
+[ID: 5644846593]
+[This file contains the trees that were found during the MCMC
+search, sorted by posterior probability. "p" indicates the
+posterior probability of the tree whereas "P" indicates the
+cumulative posterior probability.]
+
+begin trees;
+   translate
+    1 Alligator_mississippiensis,
+    2 Trachemys_scripta,
+    3 Amphiuma_tridactylum,
+    4 Grandisonia_alternans,
+    5 Hypogeophis_rostratus,
+    6 Homo_sapiens,
+    7 Mus_musculus,
+    8 Rattus_norvegicus,
+    9 Sceloporus_undulatus,
+   10 Heterodon_platyrhinos,
+   11 Ambystoma_mexicanum,
+   12 Siren_intermedia,
+   13 Scaphiopus_holbrooki,
+   14 Plethodon_yonhalossee,
+   15 Discoglossus_pictus,
+   16 Hyla_cinerea,
+   17 Eleutherodactylus_cuneatus,
+   18 Xenopus_laevis,
+   19 Latimeria_chalumnae,
+   20 Typhlonectes_natans,
+   21 Gallus_gallus,
+   22 Turdus_migratorius,
+   23 Nesomantis_thomasseti,
+   24 Oryctolagus_cuniculus,
+   25 Ichthyophis_bannanicus,
+   26 Bufo_valliceps,
+   27 Gastrophryne_carolinensis;
+   tree tree_1 [p = 0.948, P = 0.948] = [&W 0.948035] (2,((10,9),((22,21),((24,((8,7),6)),(19,(18,(((27,(23,17)),(26,16)),((20,(12,11)),(15,((14,13),(25,(5,(4,3)))))))))))),1);
+   tree tree_2 [p = 0.025, P = 0.973] = [&W 0.024650] (2,((10,9),((22,21),((24,((8,7),6)),(19,(18,(((27,(23,17)),(26,16)),(20,((12,11),(15,((14,13),(25,(5,(4,3))))))))))))),1);
+   tree tree_3 [p = 0.024, P = 0.997] = [&W 0.023984] (2,((10,9),((22,21),((24,((8,7),6)),(19,(18,(((27,(23,17)),(26,16)),((12,11),(20,(15,((14,13),(25,(5,(4,3))))))))))))),1);
+   tree tree_4 [p = 0.001, P = 0.998] = [&W 0.000999] (2,((10,9),((22,21),((24,((8,7),6)),(19,(18,((26,16),((27,(23,17)),((20,(12,11)),(15,((14,13),(25,(5,(4,3))))))))))))),1);
+   tree tree_5 [p = 0.001, P = 0.998] = [&W 0.000666] (2,((10,9),((22,21),((24,((8,7),6)),(19,(18,((26,((27,(23,17)),16)),((20,(12,11)),(15,((14,13),(25,(5,(4,3)))))))))))),1);
+   tree tree_6 [p = 0.001, P = 0.999] = [&W 0.000666] (2,((10,9),((22,21),((24,((8,7),6)),(19,(18,(((26,(27,(23,17))),16),((20,(12,11)),(15,((14,13),(25,(5,(4,3)))))))))))),1);
+   tree tree_7 [p = 0.000, P = 0.999] = [&W 0.000333] (2,((10,9),((22,21),((24,((8,7),6)),(19,(18,(((27,(23,17)),(26,16)),((15,(20,(12,11))),((14,13),(25,(5,(4,3))))))))))),1);
+   tree tree_8 [p = 0.000, P = 1.000] = [&W 0.000333] (2,((10,9),((22,21),((24,((8,7),6)),(19,(18,(((23,(27,17)),(26,16)),((20,(12,11)),(15,((14,13),(25,(5,(4,3)))))))))))),1);
+   tree tree_9 [p = 0.000, P = 1.000] = [&W 0.000333] (2,((10,9),((22,21),((24,((8,7),6)),(19,(18,((27,(23,17)),((26,16),((20,(12,11)),(15,((14,13),(25,(5,(4,3))))))))))))),1);
+end;

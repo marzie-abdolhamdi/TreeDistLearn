@@ -1,0 +1,12 @@
+n_taxa=5
+order_by_new_position:
+0	old_idx=0	name=Taxon1
+1	old_idx=1	name=Taxon2
+2	old_idx=4	name=Taxon5
+3	old_idx=3	name=Taxon4
+4	old_idx=2	name=Taxon3
+
+selection_log:
+init_triplet=[0, 1, 4]
+pick=3 gap=0.012000 d1=0.273000 d2=0.285000 current_size=3
+pick=2 gap=0.007000 d1=0.246000 d2=0.253000 current_size=4

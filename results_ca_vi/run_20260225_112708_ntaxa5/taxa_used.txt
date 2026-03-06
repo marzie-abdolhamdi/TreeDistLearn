@@ -1,0 +1,5 @@
+0	Taxon1
+1	Taxon4
+2	Taxon5
+3	Taxon3
+4	Taxon2

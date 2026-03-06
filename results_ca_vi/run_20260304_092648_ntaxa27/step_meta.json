@@ -1,0 +1,482 @@
+[
+  {
+    "taxon_idx": 3,
+    "taxon_name": "Turdus_migratorius",
+    "rho_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_003_Turdus_migratorius/rho_net.pt",
+    "b_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_003_Turdus_migratorius/b_net.pt",
+    "train_summary": {
+      "final_scaled_elbo": -1.9133914709091187,
+      "iterations": 130,
+      "max_steps": 600,
+      "stopped_early": true,
+      "stop_reason": "converged at step 130 (EMA \u0394=-3.85e-06 < tol=2.0e-04)",
+      "final_ema_elbo": -1.913400629269784,
+      "final_entropy": -0.0,
+      "final_max_qe": 1.0,
+      "final_kl_b": 1.9777323007583618,
+      "final_kl_r": 1.0351773500442505,
+      "final_loglik": -3803.990234375,
+      "n_edges": 3
+    }
+  },
+  {
+    "taxon_idx": 4,
+    "taxon_name": "Latimeria_chalumnae",
+    "rho_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_004_Latimeria_chalumnae/rho_net.pt",
+    "b_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_004_Latimeria_chalumnae/b_net.pt",
+    "train_summary": {
+      "final_scaled_elbo": -2.085858106613159,
+      "iterations": 130,
+      "max_steps": 600,
+      "stopped_early": true,
+      "stop_reason": "converged at step 130 (EMA \u0394=6.55e-05 < tol=2.0e-04)",
+      "final_ema_elbo": -2.0858117592984478,
+      "final_entropy": 2.0557338508977325e-24,
+      "final_max_qe": 1.0,
+      "final_kl_b": 2.062641143798828,
+      "final_kl_r": 0.7555352449417114,
+      "final_loglik": -4121.037109375,
+      "n_edges": 5
+    }
+  },
+  {
+    "taxon_idx": 5,
+    "taxon_name": "Ambystoma_mexicanum",
+    "rho_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_005_Ambystoma_mexicanum/rho_net.pt",
+    "b_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_005_Ambystoma_mexicanum/b_net.pt",
+    "train_summary": {
+      "final_scaled_elbo": -2.155122756958008,
+      "iterations": 130,
+      "max_steps": 600,
+      "stopped_early": true,
+      "stop_reason": "converged at step 130 (EMA \u0394=-4.85e-04 < tol=2.0e-04)",
+      "final_ema_elbo": -2.1542186389990174,
+      "final_entropy": 0.5357765555381775,
+      "final_max_qe": 0.7735691666603088,
+      "final_kl_b": 2.5149452686309814,
+      "final_kl_r": 8.268636703491211,
+      "final_loglik": -4256.66357421875,
+      "n_edges": 7
+    }
+  },
+  {
+    "taxon_idx": 6,
+    "taxon_name": "Heterodon_platyrhinos",
+    "rho_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_006_Heterodon_platyrhinos/rho_net.pt",
+    "b_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_006_Heterodon_platyrhinos/b_net.pt",
+    "train_summary": {
+      "final_scaled_elbo": -2.2692995071411133,
+      "iterations": 130,
+      "max_steps": 600,
+      "stopped_early": true,
+      "stop_reason": "converged at step 130 (EMA \u0394=-8.04e-04 < tol=2.0e-04)",
+      "final_ema_elbo": -2.266139924843692,
+      "final_entropy": 0.0479181632399559,
+      "final_max_qe": 0.99172443151474,
+      "final_kl_b": 2.2745306491851807,
+      "final_kl_r": 0.8243462443351746,
+      "final_loglik": -4484.50244140625,
+      "n_edges": 9
+    }
+  },
+  {
+    "taxon_idx": 7,
+    "taxon_name": "Bufo_valliceps",
+    "rho_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_007_Bufo_valliceps/rho_net.pt",
+    "b_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_007_Bufo_valliceps/b_net.pt",
+    "train_summary": {
+      "final_scaled_elbo": -2.3956925868988037,
+      "iterations": 130,
+      "max_steps": 600,
+      "stopped_early": true,
+      "stop_reason": "converged at step 130 (EMA \u0394=-2.39e-05 < tol=2.0e-04)",
+      "final_ema_elbo": -2.3976279519030386,
+      "final_entropy": 2.4431157097382084e-10,
+      "final_max_qe": 1.0,
+      "final_kl_b": 2.0585527420043945,
+      "final_kl_r": 0.6155747771263123,
+      "final_loglik": -4753.06298828125,
+      "n_edges": 11
+    }
+  },
+  {
+    "taxon_idx": 8,
+    "taxon_name": "Gastrophryne_carolinensis",
+    "rho_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_008_Gastrophryne_carolinensis/rho_net.pt",
+    "b_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_008_Gastrophryne_carolinensis/b_net.pt",
+    "train_summary": {
+      "final_scaled_elbo": -2.5293216705322266,
+      "iterations": 143,
+      "max_steps": 600,
+      "stopped_early": true,
+      "stop_reason": "converged at step 143 (EMA \u0394=1.99e-04 < tol=2.0e-04)",
+      "final_ema_elbo": -2.524701704947633,
+      "final_entropy": 0.9182692766189575,
+      "final_max_qe": 0.46773841977119446,
+      "final_kl_b": 1.9713962078094482,
+      "final_kl_r": 0.5690200328826904,
+      "final_loglik": -5003.3798828125,
+      "n_edges": 13
+    }
+  },
+  {
+    "taxon_idx": 9,
+    "taxon_name": "Ichthyophis_bannanicus",
+    "rho_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_009_Ichthyophis_bannanicus/rho_net.pt",
+    "b_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_009_Ichthyophis_bannanicus/b_net.pt",
+    "train_summary": {
+      "final_scaled_elbo": -2.600613832473755,
+      "iterations": 130,
+      "max_steps": 600,
+      "stopped_early": true,
+      "stop_reason": "converged at step 130 (EMA \u0394=6.24e-05 < tol=2.0e-04)",
+      "final_ema_elbo": -2.6005194746499334,
+      "final_entropy": 0.0001498435449320823,
+      "final_max_qe": 0.9999878406524658,
+      "final_kl_b": 2.2594945430755615,
+      "final_kl_r": 0.41412466764450073,
+      "final_loglik": -5163.4013671875,
+      "n_edges": 15
+    }
+  },
+  {
+    "taxon_idx": 10,
+    "taxon_name": "Eleutherodactylus_cuneatus",
+    "rho_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_010_Eleutherodactylus_cuneatus/rho_net.pt",
+    "b_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_010_Eleutherodactylus_cuneatus/b_net.pt",
+    "train_summary": {
+      "final_scaled_elbo": -2.719309091567993,
+      "iterations": 130,
+      "max_steps": 600,
+      "stopped_early": true,
+      "stop_reason": "converged at step 130 (EMA \u0394=-5.28e-04 < tol=2.0e-04)",
+      "final_ema_elbo": -2.718020765495634,
+      "final_entropy": 0.49587351083755493,
+      "final_max_qe": 0.8350249528884888,
+      "final_kl_b": 1.8927907943725586,
+      "final_kl_r": 0.9611234068870544,
+      "final_loglik": -5360.80078125,
+      "n_edges": 17
+    }
+  },
+  {
+    "taxon_idx": 11,
+    "taxon_name": "Xenopus_laevis",
+    "rho_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_011_Xenopus_laevis/rho_net.pt",
+    "b_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_011_Xenopus_laevis/b_net.pt",
+    "train_summary": {
+      "final_scaled_elbo": -2.809441328048706,
+      "iterations": 130,
+      "max_steps": 600,
+      "stopped_early": true,
+      "stop_reason": "converged at step 130 (EMA \u0394=-1.68e-03 < tol=2.0e-04)",
+      "final_ema_elbo": -2.807192622071378,
+      "final_entropy": 0.5939054489135742,
+      "final_max_qe": 0.7189891934394836,
+      "final_kl_b": 2.0339102745056152,
+      "final_kl_r": 0.6550809741020203,
+      "final_loglik": -5530.130859375,
+      "n_edges": 19
+    }
+  },
+  {
+    "taxon_idx": 12,
+    "taxon_name": "Hyla_cinerea",
+    "rho_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_012_Hyla_cinerea/rho_net.pt",
+    "b_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_012_Hyla_cinerea/b_net.pt",
+    "train_summary": {
+      "final_scaled_elbo": -2.9322357177734375,
+      "iterations": 130,
+      "max_steps": 600,
+      "stopped_early": true,
+      "stop_reason": "converged at step 130 (EMA \u0394=-1.37e-03 < tol=2.0e-04)",
+      "final_ema_elbo": -2.9305270728664707,
+      "final_entropy": 0.05795707553625107,
+      "final_max_qe": 0.990906834602356,
+      "final_kl_b": 1.2182737588882446,
+      "final_kl_r": 0.7551982998847961,
+      "final_loglik": -5778.1474609375,
+      "n_edges": 21
+    }
+  },
+  {
+    "taxon_idx": 13,
+    "taxon_name": "Scaphiopus_holbrooki",
+    "rho_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_013_Scaphiopus_holbrooki/rho_net.pt",
+    "b_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_013_Scaphiopus_holbrooki/b_net.pt",
+    "train_summary": {
+      "final_scaled_elbo": -3.010538101196289,
+      "iterations": 143,
+      "max_steps": 600,
+      "stopped_early": true,
+      "stop_reason": "converged at step 143 (EMA \u0394=-1.26e-03 < tol=2.0e-04)",
+      "final_ema_elbo": -2.980366593210114,
+      "final_entropy": 0.012697581201791763,
+      "final_max_qe": 0.9983377456665039,
+      "final_kl_b": 2.426745653152466,
+      "final_kl_r": 0.23435239493846893,
+      "final_loglik": -5934.95361328125,
+      "n_edges": 23
+    }
+  },
+  {
+    "taxon_idx": 14,
+    "taxon_name": "Trachemys_scripta",
+    "rho_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_014_Trachemys_scripta/rho_net.pt",
+    "b_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_014_Trachemys_scripta/b_net.pt",
+    "train_summary": {
+      "final_scaled_elbo": -3.0357353687286377,
+      "iterations": 130,
+      "max_steps": 600,
+      "stopped_early": true,
+      "stop_reason": "converged at step 130 (EMA \u0394=-3.89e-03 < tol=2.0e-04)",
+      "final_ema_elbo": -3.0445105922777964,
+      "final_entropy": 0.024302564561367035,
+      "final_max_qe": 0.9963195323944092,
+      "final_kl_b": 2.3654558658599854,
+      "final_kl_r": 1.301780104637146,
+      "final_loglik": -6064.0888671875,
+      "n_edges": 25
+    }
+  },
+  {
+    "taxon_idx": 15,
+    "taxon_name": "Oryctolagus_cuniculus",
+    "rho_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_015_Oryctolagus_cuniculus/rho_net.pt",
+    "b_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_015_Oryctolagus_cuniculus/b_net.pt",
+    "train_summary": {
+      "final_scaled_elbo": -3.1320600509643555,
+      "iterations": 176,
+      "max_steps": 600,
+      "stopped_early": true,
+      "stop_reason": "converged at step 176 (EMA \u0394=-4.70e-04 < tol=2.0e-04)",
+      "final_ema_elbo": -3.1269932859416167,
+      "final_entropy": -0.0,
+      "final_max_qe": 1.0,
+      "final_kl_b": 2.627767324447632,
+      "final_kl_r": 0.9235230684280396,
+      "final_loglik": -6492.775390625,
+      "n_edges": 27
+    }
+  },
+  {
+    "taxon_idx": 16,
+    "taxon_name": "Hypogeophis_rostratus",
+    "rho_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_016_Hypogeophis_rostratus/rho_net.pt",
+    "b_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_016_Hypogeophis_rostratus/b_net.pt",
+    "train_summary": {
+      "final_scaled_elbo": -3.193575620651245,
+      "iterations": 143,
+      "max_steps": 600,
+      "stopped_early": true,
+      "stop_reason": "converged at step 143 (EMA \u0394=-9.38e-04 < tol=2.0e-04)",
+      "final_ema_elbo": -3.1739960275425734,
+      "final_entropy": 0.017658352851867676,
+      "final_max_qe": 0.9977612495422363,
+      "final_kl_b": 2.3049004077911377,
+      "final_kl_r": 1.2909560203552246,
+      "final_loglik": -6332.6572265625,
+      "n_edges": 29
+    }
+  },
+  {
+    "taxon_idx": 17,
+    "taxon_name": "Discoglossus_pictus",
+    "rho_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_017_Discoglossus_pictus/rho_net.pt",
+    "b_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_017_Discoglossus_pictus/b_net.pt",
+    "train_summary": {
+      "final_scaled_elbo": -3.236102819442749,
+      "iterations": 138,
+      "max_steps": 600,
+      "stopped_early": true,
+      "stop_reason": "converged at step 138 (EMA \u0394=-3.07e-04 < tol=2.0e-04)",
+      "final_ema_elbo": -3.242839882362595,
+      "final_entropy": 1.0948177576065063,
+      "final_max_qe": 0.4741358160972595,
+      "final_kl_b": 2.004148483276367,
+      "final_kl_r": 0.6020120978355408,
+      "final_loglik": -6378.23876953125,
+      "n_edges": 31
+    }
+  },
+  {
+    "taxon_idx": 18,
+    "taxon_name": "Gallus_gallus",
+    "rho_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_018_Gallus_gallus/rho_net.pt",
+    "b_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_018_Gallus_gallus/b_net.pt",
+    "train_summary": {
+      "final_scaled_elbo": -3.3052031993865967,
+      "iterations": 139,
+      "max_steps": 600,
+      "stopped_early": true,
+      "stop_reason": "converged at step 139 (EMA \u0394=-1.18e-04 < tol=2.0e-04)",
+      "final_ema_elbo": -3.293064610443306,
+      "final_entropy": 6.027385620788862e-24,
+      "final_max_qe": 1.0,
+      "final_kl_b": 2.568364381790161,
+      "final_kl_r": 0.5864690542221069,
+      "final_loglik": -6695.06005859375,
+      "n_edges": 33
+    }
+  },
+  {
+    "taxon_idx": 19,
+    "taxon_name": "Typhlonectes_natans",
+    "rho_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_019_Typhlonectes_natans/rho_net.pt",
+    "b_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_019_Typhlonectes_natans/b_net.pt",
+    "train_summary": {
+      "final_scaled_elbo": -3.3280699253082275,
+      "iterations": 130,
+      "max_steps": 600,
+      "stopped_early": true,
+      "stop_reason": "converged at step 130 (EMA \u0394=-3.53e-03 < tol=2.0e-04)",
+      "final_ema_elbo": -3.331382152500204,
+      "final_entropy": 0.7100889682769775,
+      "final_max_qe": 0.7304258942604065,
+      "final_kl_b": 2.4608051776885986,
+      "final_kl_r": 0.07353745400905609,
+      "final_loglik": -6583.00439453125,
+      "n_edges": 35
+    }
+  },
+  {
+    "taxon_idx": 20,
+    "taxon_name": "Homo_sapiens",
+    "rho_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_020_Homo_sapiens/rho_net.pt",
+    "b_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_020_Homo_sapiens/b_net.pt",
+    "train_summary": {
+      "final_scaled_elbo": -3.3699400424957275,
+      "iterations": 130,
+      "max_steps": 600,
+      "stopped_early": true,
+      "stop_reason": "converged at step 130 (EMA \u0394=-3.23e-03 < tol=2.0e-04)",
+      "final_ema_elbo": -3.3710789122139664,
+      "final_entropy": 1.1785953289711326e-11,
+      "final_max_qe": 1.0,
+      "final_kl_b": 3.0917983055114746,
+      "final_kl_r": 0.5710641741752625,
+      "final_loglik": -7076.2705078125,
+      "n_edges": 37
+    }
+  },
+  {
+    "taxon_idx": 21,
+    "taxon_name": "Sceloporus_undulatus",
+    "rho_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_021_Sceloporus_undulatus/rho_net.pt",
+    "b_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_021_Sceloporus_undulatus/b_net.pt",
+    "train_summary": {
+      "final_scaled_elbo": -3.4150328636169434,
+      "iterations": 131,
+      "max_steps": 600,
+      "stopped_early": true,
+      "stop_reason": "converged at step 131 (EMA \u0394=-6.63e-04 < tol=2.0e-04)",
+      "final_ema_elbo": -3.41601944630387,
+      "final_entropy": 0.0006452662637457252,
+      "final_max_qe": 0.9999399185180664,
+      "final_kl_b": 2.4448556900024414,
+      "final_kl_r": 0.44228652119636536,
+      "final_loglik": -6846.3271484375,
+      "n_edges": 39
+    }
+  },
+  {
+    "taxon_idx": 22,
+    "taxon_name": "Mus_musculus",
+    "rho_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_022_Mus_musculus/rho_net.pt",
+    "b_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_022_Mus_musculus/b_net.pt",
+    "train_summary": {
+      "final_scaled_elbo": -3.478203296661377,
+      "iterations": 147,
+      "max_steps": 600,
+      "stopped_early": true,
+      "stop_reason": "converged at step 147 (EMA \u0394=-8.82e-04 < tol=2.0e-04)",
+      "final_ema_elbo": -3.4540223433117294,
+      "final_entropy": 2.307556314917747e-07,
+      "final_max_qe": 1.0,
+      "final_kl_b": 2.695071220397949,
+      "final_kl_r": 0.7287989854812622,
+      "final_loglik": -7246.56396484375,
+      "n_edges": 41
+    }
+  },
+  {
+    "taxon_idx": 23,
+    "taxon_name": "Siren_intermedia",
+    "rho_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_023_Siren_intermedia/rho_net.pt",
+    "b_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_023_Siren_intermedia/b_net.pt",
+    "train_summary": {
+      "final_scaled_elbo": -3.509568452835083,
+      "iterations": 131,
+      "max_steps": 600,
+      "stopped_early": true,
+      "stop_reason": "converged at step 131 (EMA \u0394=-6.20e-05 < tol=2.0e-04)",
+      "final_ema_elbo": -3.4989643572457974,
+      "final_entropy": 1.7568299881531857e-06,
+      "final_max_qe": 0.9999998807907104,
+      "final_kl_b": 2.636202096939087,
+      "final_kl_r": 0.20359334349632263,
+      "final_loglik": -6976.3095703125,
+      "n_edges": 43
+    }
+  },
+  {
+    "taxon_idx": 24,
+    "taxon_name": "Grandisonia_alternans",
+    "rho_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_024_Grandisonia_alternans/rho_net.pt",
+    "b_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_024_Grandisonia_alternans/b_net.pt",
+    "train_summary": {
+      "final_scaled_elbo": -3.5242366790771484,
+      "iterations": 154,
+      "max_steps": 600,
+      "stopped_early": true,
+      "stop_reason": "converged at step 154 (EMA \u0394=-3.83e-04 < tol=2.0e-04)",
+      "final_ema_elbo": -3.51711358473371,
+      "final_entropy": 1.808506056022452e-08,
+      "final_max_qe": 1.0,
+      "final_kl_b": 3.2585361003875732,
+      "final_kl_r": 0.23326531052589417,
+      "final_loglik": -7062.78955078125,
+      "n_edges": 45
+    }
+  },
+  {
+    "taxon_idx": 25,
+    "taxon_name": "Alligator_mississippiensis",
+    "rho_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_025_Alligator_mississippiensis/rho_net.pt",
+    "b_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_025_Alligator_mississippiensis/b_net.pt",
+    "train_summary": {
+      "final_scaled_elbo": -3.582322835922241,
+      "iterations": 139,
+      "max_steps": 600,
+      "stopped_early": true,
+      "stop_reason": "converged at step 139 (EMA \u0394=-9.95e-04 < tol=2.0e-04)",
+      "final_ema_elbo": -3.5517768106103578,
+      "final_entropy": 0.0010310446377843618,
+      "final_max_qe": 0.9998993873596191,
+      "final_kl_b": 2.959865093231201,
+      "final_kl_r": 0.23891055583953857,
+      "final_loglik": -7200.6708984375,
+      "n_edges": 47
+    }
+  },
+  {
+    "taxon_idx": 26,
+    "taxon_name": "Plethodon_yonhalossee",
+    "rho_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_026_Plethodon_yonhalossee/rho_net.pt",
+    "b_path": "results_ca_vi/run_20260304_092648_ntaxa27/train_step_026_Plethodon_yonhalossee/b_net.pt",
+    "train_summary": {
+      "final_scaled_elbo": -3.6322879791259766,
+      "iterations": 134,
+      "max_steps": 600,
+      "stopped_early": true,
+      "stop_reason": "converged at step 134 (EMA \u0394=-4.27e-04 < tol=2.0e-04)",
+      "final_ema_elbo": -3.6093692593799194,
+      "final_entropy": 0.31501489877700806,
+      "final_max_qe": 0.9237533807754517,
+      "final_kl_b": 2.538278579711914,
+      "final_kl_r": 0.4192640483379364,
+      "final_loglik": -7180.7978515625,
+      "n_edges": 49
+    }
+  }
+]

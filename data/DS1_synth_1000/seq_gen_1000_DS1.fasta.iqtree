@@ -1,0 +1,163 @@
+IQ-TREE 3.0.1 built Jul  9 2025
+
+Input file name: TaxaADD/data/seq_gen_1000_DS1.fasta
+Type of analysis: tree reconstruction
+Random seed number: 736613
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Please also cite the following paper(s) for the feature(s) that you used:
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 27 sequences with 1000 nucleotide sites
+Number of constant sites: 629 (= 62.9% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 629 (= 62.9% of all sites)
+Number of parsimony informative sites: 176
+Number of distinct site patterns: 303
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: JC
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 1.0000
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 1.0000
+  G-T: 1.0000
+
+State frequencies: (equal frequencies)
+
+Rate matrix Q:
+
+  A        -1    0.3333    0.3333    0.3333
+  C    0.3333        -1    0.3333    0.3333
+  G    0.3333    0.3333        -1    0.3333
+  T    0.3333    0.3333    0.3333        -1
+
+Model of rate heterogeneity: Uniform
+
+STARTING TREE
+-------------
+
+Log-likelihood of the tree: -4399.4381 (s.e. 118.4575)
+Unconstrained log-likelihood (without tree): -3618.8597
+Number of free parameters (#branches + #model parameters): 51
+Akaike information criterion (AIC) score: 8900.8762
+Corrected Akaike information criterion (AICc) score: 8906.4711
+Bayesian information criterion (BIC) score: 9151.1717
+
+Total tree length (sum of branch lengths): 0.4684
+Sum of internal branch lengths: 0.1867 (39.8498% of tree length)
+
+WARNING: 1 near-zero internal branches (<0.0010) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Hypogeophis_rostratus' is drawn at root
+
++----Hypogeophis_rostratus
+|
+|  +**Grandisonia_alternans
++--|
+|  +--------Amphiuma_tridactylum
+|
+|  +--Ichthyophis_bannanicus
++--|
+   |     +--Plethodon_yonhalossee
+   |  +--|
+   |  |  +---Scaphiopus_holbrooki
+   +--|
+      |  +--Discoglossus_pictus
+      +--|
+         |     +--Typhlonectes_natans
+         |  +**|
+         |  |  |    +---Ambystoma_mexicanum
+         |  |  +----|
+         |  |       +---Siren_intermedia
+         +--|
+            |      +--Xenopus_laevis
+            |  +---|
+            |  |   |  +----------Latimeria_chalumnae
+            |  |   +--|
+            |  |      |                             +----Homo_sapiens
+            |  |      |                       +-----|
+            |  |      |                       |     |   +--Rattus_norvegicus
+            |  |      |                       |     +---|
+            |  |      |                       |         +---Mus_musculus
+            |  |      |           +-----------|
+            |  |      |           |           +--Oryctolagus_cuniculus
+            |  |      +-----------|
+            |  |                  |      +--Gallus_gallus
+            |  |                  |  +---|
+            |  |                  |  |   +--------Turdus_migratorius
+            |  |                  +--|
+            |  |                     |          +----Heterodon_platyrhinos
+            |  |                     |  +-------|
+            |  |                     |  |       +---Sceloporus_undulatus
+            |  |                     +--|
+            |  |                        |  +**Alligator_mississippiensis
+            |  |                        +--|
+            |  |                           +---Trachemys_scripta
+            +--|
+               |         +---------Nesomantis_thomasseti
+               |      +--|
+               |      |  +---------Eleutherodactylus_cuneatus
+               |  +---|
+               |  |   +-------------Gastrophryne_carolinensis
+               +--|
+                  |  +--------Bufo_valliceps
+                  +--|
+                     +-----------Hyla_cinerea
+
+Tree in newick format:
+
+(Hypogeophis_rostratus:0.0100953414,(Grandisonia_alternans:0.0000010000,Amphiuma_tridactylum:0.0171956324):0.0040098654,(Ichthyophis_bannanicus:0.0060370986,((Plethodon_yonhalossee:0.0030038277,Scaphiopus_holbrooki:0.0080614162):0.0060515613,(Discoglossus_pictus:0.0040181849,((Typhlonectes_natans:0.0040214477,(Ambystoma_mexicanum:0.0080648906,Siren_intermedia:0.0080649780):0.0101162595):0.0009909590,((Xenopus_laevis:0.0022388340,(Latimeria_chalumnae:0.0211588471,(((Homo_sapiens:0.0101025764,(Rattus_norvegicus:0.0050220158,Mus_musculus:0.0080649700):0.0080846245):0.0130281687,Oryctolagus_cuniculus:0.0043059032):0.0239318522,((Gallus_gallus:0.0070435856,Turdus_migratorius:0.0182968678):0.0086689602,((Heterodon_platyrhinos:0.0107768322,Sceloporus_undulatus:0.0084074211):0.0159949776,(Alligator_mississippiensis:0.0009933915,Trachemys_scripta:0.0080555062):0.0043373398):0.0064660792):0.0053080965):0.0231866828):0.0060236233):0.0078311472,(((Nesomantis_thomasseti:0.0206939839,Eleutherodactylus_cuneatus:0.0190958868):0.0038935923,Gastrophryne_carolinensis:0.0273274100):0.0094116485,(Bufo_valliceps:0.0182160867,Hyla_cinerea:0.0233936478):0.0031597226):0.0020002986):0.0040214477):0.0020026319):0.0070602835):0.0040175386):0.0070686655);
+
+
+USER TREES
+----------
+
+See TaxaADD/data/seq_gen_1000_DS1.fasta.trees for trees with branch lengths.
+
+Tree      logL    deltaL
+-------------------------
+  1 -4399.439696       0
+
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t TaxaADD/data/seq_gen_1000_DS1.fasta.treefile -m "JC" --length 1000
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s TaxaADD/data/seq_gen_1000_DS1.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s TaxaADD/data/seq_gen_1000_DS1.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Tue Feb 17 15:16:24 2026
+Total CPU time used: 0.012418 seconds (0h:0m:0s)
+Total wall-clock time used: 0.01689 seconds (0h:0m:0s)
+

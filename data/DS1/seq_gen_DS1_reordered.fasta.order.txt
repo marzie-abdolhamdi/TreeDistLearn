@@ -1,0 +1,56 @@
+n_taxa=27
+order_by_new_position:
+0	old_idx=7	name=Typhlonectes_natans
+1	old_idx=8	name=Ambystoma_mexicanum
+2	old_idx=18	name=Heterodon_platyrhinos
+3	old_idx=19	name=Sceloporus_undulatus
+4	old_idx=20	name=Alligator_mississippiensis
+5	old_idx=17	name=Turdus_migratorius
+6	old_idx=16	name=Gallus_gallus
+7	old_idx=9	name=Siren_intermedia
+8	old_idx=6	name=Discoglossus_pictus
+9	old_idx=1	name=Grandisonia_alternans
+10	old_idx=0	name=Hypogeophis_rostratus
+11	old_idx=4	name=Plethodon_yonhalossee
+12	old_idx=3	name=Ichthyophis_bannanicus
+13	old_idx=2	name=Amphiuma_tridactylum
+14	old_idx=5	name=Scaphiopus_holbrooki
+15	old_idx=10	name=Xenopus_laevis
+16	old_idx=11	name=Latimeria_chalumnae
+17	old_idx=22	name=Nesomantis_thomasseti
+18	old_idx=23	name=Eleutherodactylus_cuneatus
+19	old_idx=24	name=Gastrophryne_carolinensis
+20	old_idx=26	name=Hyla_cinerea
+21	old_idx=25	name=Bufo_valliceps
+22	old_idx=21	name=Trachemys_scripta
+23	old_idx=12	name=Homo_sapiens
+24	old_idx=13	name=Rattus_norvegicus
+25	old_idx=14	name=Mus_musculus
+26	old_idx=15	name=Oryctolagus_cuniculus
+
+selection_log:
+init_triplet=[7, 8, 18]
+pick=19 gap=0.080000 d1=0.020000 d2=0.100000 current_size=3
+pick=20 gap=0.020000 d1=0.030000 d2=0.050000 current_size=4
+pick=17 gap=0.030000 d1=0.020000 d2=0.050000 current_size=5
+pick=16 gap=0.020000 d1=0.010000 d2=0.030000 current_size=6
+pick=9 gap=0.000000 d1=0.000000 d2=0.000000 current_size=7
+pick=6 gap=0.000000 d1=0.010000 d2=0.010000 current_size=8
+pick=1 gap=0.010000 d1=0.030000 d2=0.040000 current_size=9
+pick=0 gap=0.030000 d1=0.010000 d2=0.040000 current_size=10
+pick=4 gap=0.010000 d1=0.030000 d2=0.040000 current_size=11
+pick=3 gap=0.010000 d1=0.040000 d2=0.050000 current_size=12
+pick=2 gap=0.010000 d1=0.010000 d2=0.020000 current_size=13
+pick=5 gap=0.010000 d1=0.020000 d2=0.030000 current_size=14
+pick=10 gap=0.000000 d1=0.010000 d2=0.010000 current_size=15
+pick=11 gap=0.010000 d1=0.060000 d2=0.070000 current_size=16
+pick=22 gap=0.010000 d1=0.060000 d2=0.070000 current_size=17
+pick=23 gap=0.040000 d1=0.020000 d2=0.060000 current_size=18
+pick=24 gap=0.010000 d1=0.040000 d2=0.050000 current_size=19
+pick=26 gap=0.010000 d1=0.010000 d2=0.020000 current_size=20
+pick=25 gap=0.010000 d1=0.020000 d2=0.030000 current_size=21
+pick=21 gap=0.000000 d1=0.020000 d2=0.020000 current_size=22
+pick=12 gap=0.000000 d1=0.040000 d2=0.040000 current_size=23
+pick=13 gap=0.040000 d1=0.000000 d2=0.040000 current_size=24
+pick=14 gap=0.000000 d1=0.000000 d2=0.000000 current_size=25
+pick=15 gap=0.000000 d1=0.010000 d2=0.010000 current_size=26

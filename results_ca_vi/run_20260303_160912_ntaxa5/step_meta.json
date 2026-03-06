@@ -1,0 +1,42 @@
+[
+  {
+    "taxon_idx": 3,
+    "taxon_name": "Taxon3",
+    "rho_path": "results_ca_vi/run_20260303_160912_ntaxa5/train_step_003_Taxon3/rho_net.pt",
+    "b_path": "results_ca_vi/run_20260303_160912_ntaxa5/train_step_003_Taxon3/b_net.pt",
+    "train_summary": {
+      "final_scaled_elbo": -3.9617421627044678,
+      "iterations": 130,
+      "max_steps": 600,
+      "stopped_early": true,
+      "stop_reason": "converged at step 130 (EMA \u0394=-3.74e-03 < tol=2.0e-04)",
+      "final_ema_elbo": -3.947830329706058,
+      "final_entropy": 3.2202374508914737e-25,
+      "final_max_qe": 1.0,
+      "final_kl_b": 0.08466792106628418,
+      "final_kl_r": 0.0007691222126595676,
+      "final_loglik": -3923.608154296875,
+      "n_edges": 3
+    }
+  },
+  {
+    "taxon_idx": 4,
+    "taxon_name": "Taxon2",
+    "rho_path": "results_ca_vi/run_20260303_160912_ntaxa5/train_step_004_Taxon2/rho_net.pt",
+    "b_path": "results_ca_vi/run_20260303_160912_ntaxa5/train_step_004_Taxon2/b_net.pt",
+    "train_summary": {
+      "final_scaled_elbo": -4.561694145202637,
+      "iterations": 130,
+      "max_steps": 600,
+      "stopped_early": true,
+      "stop_reason": "converged at step 130 (EMA \u0394=-8.84e-03 < tol=2.0e-04)",
+      "final_ema_elbo": -4.519577393061426,
+      "final_entropy": 1.085734128751411e-22,
+      "final_max_qe": 1.0,
+      "final_kl_b": 0.08208729326725006,
+      "final_kl_r": 9.439699351787567e-05,
+      "final_loglik": -4601.7060546875,
+      "n_edges": 5
+    }
+  }
+]
